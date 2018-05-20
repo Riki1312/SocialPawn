@@ -12,16 +12,16 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/Login/login.html">
+        <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/Page/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
+            <state relative-caret-position="47">
               <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="singup.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/SignUp/singup.html">
+      <file leaf-file-name="singup.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/Page/singup.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="83" />
@@ -34,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ajax.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Ajax.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/JavaScript/Ajax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="23" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="23" />
+            <state relative-caret-position="510">
+              <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
               <folding>
                 <element signature="n#!!block;n#Signin#0" />
               </folding>
@@ -67,6 +67,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\mcost\Desktop\SocialPawn\SocialPawn_Login-Singup_finito\Img\svg</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -82,8 +90,8 @@
         <option value="$PROJECT_DIR$/SocialPawn_Login-Singup_finito/Ajax.php" />
         <option value="$PROJECT_DIR$/Spiego il perchè.txt" />
         <option value="$PROJECT_DIR$/SocialPawn_Login-Singup_finito/Login/login.html" />
-        <option value="$PROJECT_DIR$/SocialPawn_Login-Singup_finito/JavaScript/Ajax.js" />
         <option value="$PROJECT_DIR$/SocialPawn_Login-Singup_finito/SignUp/singup.html" />
+        <option value="$PROJECT_DIR$/SocialPawn_Login-Singup_finito/JavaScript/Ajax.js" />
       </list>
     </option>
   </component>
@@ -93,7 +101,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -120,7 +128,7 @@
               <item name="SocialPawn" type="b2602c69:ProjectViewProjectNode" />
               <item name="SocialPawn" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="SocialPawn_Login-Singup_finito" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Img" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="JavaScript" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -134,6 +142,14 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mcost\Desktop\SocialPawn\SocialPawn_Login-Singup_finito\Img" />
+      <recent name="C:\Users\mcost\Desktop\SocialPawn\SocialPawn_Login-Singup_finito\Page" />
+      <recent name="C:\Users\mcost\Desktop\SocialPawn\SocialPawn_Login-Singup_finito\Login" />
+      <recent name="C:\Users\mcost\Desktop\SocialPawn\SocialPawn_Login-Singup_finito\Comuni" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -158,15 +174,16 @@
       <option name="presentableId" value="Default" />
       <updated>1526821495427</updated>
       <workItem from="1526821497447" duration="4057000" />
-      <workItem from="1526846021009" duration="982000" />
+      <workItem from="1526846021009" duration="1254000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5039000" />
+    <option name="totallyTimeSpent" value="5311000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3286385" />
@@ -196,14 +213,14 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/Login/login.html">
+    <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/Page/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/SignUp/singup.html">
+    <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/Page/singup.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="95" selection-start-line="25" selection-start-column="95" selection-end-line="25" selection-end-column="95" />
@@ -325,24 +342,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/Login/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/JavaScript/Ajax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="23" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!block;n#Signin#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/SignUp/singup.html">
+    <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/Page/singup.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="83" />
@@ -350,6 +350,23 @@
             <element signature="n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/Page/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/JavaScript/Ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!block;n#Signin#0" />
           </folding>
         </state>
       </provider>

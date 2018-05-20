@@ -40,7 +40,7 @@ function AjaxSend(action, obj) {
 function Login(obj) {
     var frm = document.getElementById("login");
     frm.method="post";
-    frm.action="../Ajax.php";
+    frm.action="home.html";
     frm.submit();
 }
 function Signin(obj) {
