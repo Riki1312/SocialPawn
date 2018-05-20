@@ -2,7 +2,7 @@
 
 function PreLogin() {
     var obj = new Object({
-        "email" : document.getElementById("nickName").value,
+        "nickName" : document.getElementById("nickName").value,
         "password" : document.getElementById("password").value
     });
     AjaxSend("login", obj);
