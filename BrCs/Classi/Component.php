@@ -4,7 +4,7 @@ namespace BrCs;
 
 include("Database.php");
 
-use BrCs\DataBase\Database;
+use BrCs\Database;
 
 
 class Components

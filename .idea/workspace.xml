@@ -11,49 +11,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/Page/login.html">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BrCs/Page/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="singup.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/Page/singup.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="83" />
-              <folding>
-                <element signature="n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ajax.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/JavaScript/Ajax.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
-              <folding>
-                <element signature="n#!!block;n#Signin#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ajax.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/Ajax.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="n#Answer#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="407">
+              <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -68,8 +30,12 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>../</find>
+    </findStrings>
     <replaceStrings>
       <replace />
+      <replace>../img/</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\mcost\Desktop\SocialPawn\SocialPawn_Login-Singup_finito\Img\svg</dir>
@@ -83,8 +49,8 @@
       <list>
         <option value="$PROJECT_DIR$/SocialPawn_Login-Singup_finito/login.html" />
         <option value="$PROJECT_DIR$/SocialPawn_Login-Singup_finito/Ajax.js" />
-        <option value="W:/XAMPP/htdocs/TestSocial/Ajax.php" />
-        <option value="W:/XAMPP/htdocs/TestSocial/AjaxFunction.js" />
+        <option value="$PROJECT_DIR$/../TestSocial/Ajax.php" />
+        <option value="$PROJECT_DIR$/../TestSocial/AjaxFunction.js" />
         <option value="$PROJECT_DIR$/SocialPawn_Login-Singup_finito/Classi/Component.php" />
         <option value="$PROJECT_DIR$/SocialPawn_Login-Singup_finito/Classi/Database.php" />
         <option value="$PROJECT_DIR$/SocialPawn_Login-Singup_finito/Ajax.php" />
@@ -92,6 +58,8 @@
         <option value="$PROJECT_DIR$/SocialPawn_Login-Singup_finito/Login/login.html" />
         <option value="$PROJECT_DIR$/SocialPawn_Login-Singup_finito/SignUp/singup.html" />
         <option value="$PROJECT_DIR$/SocialPawn_Login-Singup_finito/JavaScript/Ajax.js" />
+        <option value="$PROJECT_DIR$/BrCs/Classi/Component.php" />
+        <option value="$PROJECT_DIR$/BrCs/Page/home.html" />
       </list>
     </option>
   </component>
@@ -112,6 +80,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,19 +91,24 @@
             <path>
               <item name="SocialPawn" type="b2602c69:ProjectViewProjectNode" />
               <item name="SocialPawn" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="SocialPawn_Login-Singup_finito" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BrCs" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="SocialPawn" type="b2602c69:ProjectViewProjectNode" />
               <item name="SocialPawn" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="SocialPawn_Login-Singup_finito" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="JavaScript" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BrCs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Img" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="SocialPawn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SocialPawn" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BrCs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Page" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -175,27 +149,26 @@
       <updated>1526821495427</updated>
       <workItem from="1526821497447" duration="4057000" />
       <workItem from="1526846021009" duration="1254000" />
+      <workItem from="1526848710264" duration="1156000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5311000" />
+    <option name="totallyTimeSpent" value="6467000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25036603" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3286385" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25036603" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -204,6 +177,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,25 +187,28 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/Page/login.html">
+    <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/JavaScript/Ajax.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/Page/singup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="95" selection-start-line="25" selection-start-column="95" selection-end-line="25" selection-end-column="95" />
+        <state relative-caret-position="714">
+          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
           <folding>
-            <element signature="n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#!!block;n#Signin#0" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/Ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="n#Answer#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/Page/login.html" />
+    <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/Page/singup.html" />
     <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/Ajax.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -256,26 +233,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://W:/XAMPP/htdocs/TestSocial/Ajax.php">
+    <entry file="file://$PROJECT_DIR$/../TestSocial/Ajax.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding>
-            <element signature="n#Answer#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://W:/XAMPP/htdocs/TestSocial/AjaxFunction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!block;n#AjaxSend#0" />
-            <element signature="n#!!block;n#Login#0" />
-            <element signature="n#!!block;n#Signin#0" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../TestSocial/AjaxFunction.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/JavaScript/Ajax.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -290,13 +256,10 @@
     <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/login-singup.js" />
     <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/login.html" />
     <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/Ajax.js" />
-    <entry file="file://W:/XAMPP/htdocs/TestSocial/Ajax.php">
+    <entry file="file://$PROJECT_DIR$/../TestSocial/Ajax.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding>
-            <element signature="n#Answer#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -314,16 +277,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://W:/XAMPP/htdocs/TestSocial/AjaxFunction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!block;n#AjaxSend#0" />
-            <element signature="n#!!block;n#Login#0" />
-            <element signature="n#!!block;n#Signin#0" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../TestSocial/AjaxFunction.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Spiego il perchè.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -334,7 +289,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/Ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="272">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="n#Answer#0;n#!!top" />
@@ -342,32 +297,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/Page/singup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="83" />
-          <folding>
-            <element signature="n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/Page/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/Page/singup.html" />
+    <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/Page/login.html" />
     <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/JavaScript/Ajax.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
+        <state relative-caret-position="438">
           <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
           <folding>
             <element signature="n#!!block;n#Signin#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BrCs/Classi/Component.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BrCs/Ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BrCs/Classi/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BrCs/Page/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
         </state>
       </provider>
     </entry>
