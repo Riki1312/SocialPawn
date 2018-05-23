@@ -23,7 +23,7 @@ let PathPngHome = "../";
 function AbstractHtmlPost(postContainer = "postcontainer") {
 
     document.getElementsByClassName(postContainer)[0].innerHTML = '' +
-        '<div class="mainpost" v-for="post in posts">' +
+        '<div class="mainpost" v-for="post in posts" :id="post.id">' +
         '<div class="postbar">' +
         '<div class="div-block-7">' +
         '<img :src="post.uImg" class="imagepofile"/>' +
