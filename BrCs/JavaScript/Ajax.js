@@ -26,7 +26,7 @@ function PreDataProfile() {
 }
 function PreGetPosts(numPosts) {
     var obj = new Object({
-       "idUser":2,
+       "idUser":1,
        "numPosts":numPosts
     });
     AjaxSend("getPosts", obj);
@@ -105,7 +105,6 @@ function DataProfile(obj) {
     document.getElementById("numFollowing").textContent = obj.following;
     document.getElementById("numPosts").textContent = obj.posts;
 }
-
 function GetPosts(obj) {
-    data = obj;
+    data = JSON.parse(obj.data);
 }

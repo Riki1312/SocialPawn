@@ -91,7 +91,7 @@ function UpdatePosts(){
     $User = new Components();
 
 
-    $GLOBALS['data'] = json_encode($User->UpdatePost($obj['idPosts']));
+    //$GLOBALS['data'] = json_encode($User->UpdatePost($obj['idPosts']));
 }
 
 /* --- */

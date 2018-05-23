@@ -17,19 +17,25 @@ window.onload = () => {
 
 function TimerTick() {
 
-    PreUpdatePosts(() => {
+    /*PreUpdatePosts(() => {
         idPosts = [];
         for (let i = 0; i < HtmlPost.leading; i++)
             idPosts.push(HtmlPost.posts[i].id);
         return idPosts;
-    });
+    });*/
     if(data!=null){
-        serverPosts = JSON.parse(data.data);
+        serverPosts = data;
 
         data = null;
 
         for (let i = 0; i < serverPosts.length; i++)
         {
+
+            if(serverPosts[i].claps == null)
+                serverPosts[i].claps = 0;
+            if(serverPosts[i].likes == null)
+                serverPosts[i].likes = 0;
+
             if (i < HtmlPost.leading)
             {
                 //Se non rileva l'update vedi: https://vuejs.org/v2/guide/list.html#Caveats

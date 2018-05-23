@@ -43,6 +43,7 @@ class Database
         $sql = "INSERT INTO `users`(`nickName`, `email`, `password`, `idPr`) VALUES ('".$nickNameTest."','".$emailTest."','".md5($passwordTest)."',2)";
         $this->Query($sql);
     }
+
     /*
      * True: esiste
      * False: non esiste
@@ -57,9 +58,10 @@ class Database
             return false;
     }
     public function ExistAccount($nickNameTest){
-        $record = $this->Query("SELECT COUNT(*) AS exist FROM users WHERE nickName = '".$nickNameTest."'");
+        $record = $this->Query("SELECT nickName, COUNT(*) AS exist FROM users WHERE nickName = '".$nickNameTest."'");
 
         $record = $record->fetch_assoc();
+
         if($record["exist"]==1)
             return true;
         else

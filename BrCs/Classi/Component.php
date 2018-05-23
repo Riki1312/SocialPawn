@@ -44,15 +44,6 @@ class Components
         }else
             $this->message = "006";
     }
-    public function ExistAccount($nickNameTest){
-        $record = $this->database->Query("SELECT COUNT(*) AS exist FROM users WHERE nickName = '".$nickNameTest."'");
-
-        $record = $record->fetch_assoc();
-        if($record["exist"]==1)
-            return true;
-        else
-            return false;
-    }
 
     public function GetPosts($idUser, $numPosts){
         /* nome profilo, img profilo, tempo strascorso,raccolta, claps, likes, testo, url img, commenti (nome, testo)*/
