@@ -17,12 +17,14 @@ window.onload = () => {
 
 function TimerTick() {
 
-    /*PreUpdatePosts(() => {
+    var GetIdPosts = () => {
         idPosts = [];
         for (let i = 0; i < HtmlPost.leading; i++)
             idPosts.push(HtmlPost.posts[i].id);
         return idPosts;
-    });*/
+    };
+    PreUpdatePosts(GetIdPosts());
+
     if(data!=null){
         serverPosts = data;
 
