@@ -35,7 +35,7 @@ function PreGetPosts(numPosts) {
 }
 function PreUpdatePosts(idPosts){
     var obj = new Object({
-        "idPosts": [1,2]
+        "idPosts": idPosts
     });
     //idPosts
     AjaxSend("updatePosts", obj);
