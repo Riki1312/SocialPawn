@@ -1,0 +1,12 @@
+001 - Accesso effettuato
+002 - Accesso rifiutato
+003 - Account inesistente
+
+005 - Registrazione riuscita
+006 - Registrazione fallita
+
+100 - Campo non impostato
+
+999 - No AJAX azione
+
+

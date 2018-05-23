@@ -9,17 +9,28 @@
 include("Classi/Component.php");
 use BrCs\Components;
 
-if(isset($_REQUEST["action"])){
+ini_set('display_errors', 1);
+
+$message = "";
+$data = "";
+
+session_start();
+
+if(isset($_REQUEST["action"]) && isset($_REQUEST["data"])){
     switch ($_REQUEST["action"]){
         case 'login':
-            if(isset($_REQUEST["data"]))
                 Login();
-            else
-                $message = '100';
             break;
 
-        case 'signin':
+        case 'signUp':
+            InsertUser();
+            break;
 
+        case 'profileUpdate':
+            UpdateProfile();
+            break;
+        case 'getPosts':
+            GetPosts();
             break;
 
         default:
@@ -39,15 +50,42 @@ function Login(){
     $_SESSION['nickName'] = $obj['nickName'];
     $_SESSION['password'] = md5($obj['password']);
 
-    $User = new Components($obj['nickName'], $obj['password']);
+    $User = new Components();
+    $User->LogInAccount($obj['nickName'], $obj['password']);
     $GLOBALS['message'] = $User->message;
 }
-
 function InsertUser(){
     $obj = json_decode($_REQUEST["data"], true);
+
+    $User = new Components();
+    $User->SignUpAccount($obj['nickName'],$obj['email'], $obj['password']);
+    $GLOBALS['message'] = $User->message;
+}
+function UpdateProfile(){
+    //$obj = json_decode($_REQUEST["data"], true);
+
+    $User = new Components();
+
+    $User->UpdateProfile($_SESSION['nickName']);
+
+    $GLOBALS['data'] = $User->data;
 }
 
+function GetPosts(){
+    /*
+     * Prendi i primi N post, in ordine cronologico, di coloro che segui
+     * N viene formito nella stringa JSON
+     */
+    $obj = json_decode($_REQUEST["data"], true);
+
+    $User = new Components();
+
+
+    $GLOBALS['data'] = json_encode($User->GetPosts($obj['idUser'], $obj['numPosts']));
+}
+
+/* --- */
 function Answer(){
-    $obj = json_encode(array('action'=>$_REQUEST["action"],'message'=>$GLOBALS['message']));
+    $obj = json_encode(array('action'=>$_REQUEST["action"],'message'=>$GLOBALS['message'], 'data'=> $GLOBALS['data']));
     echo($obj);
 }

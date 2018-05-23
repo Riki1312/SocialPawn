@@ -526,6 +526,7 @@ p {
   margin-right: auto;
   margin-left: auto;
   padding-bottom: 10px;
+  float: left;
   border-radius: 5px;
   background-color: #fff;
   box-shadow: 0 6px 24px -5px rgba(0, 0, 0, .5);
@@ -636,6 +637,7 @@ p {
   margin-top: 5px;
   margin-bottom: 0px;
   margin-left: 10px;
+  float: left;
   color: #595959;
   font-size: 25px;
 }

@@ -1,0 +1,18 @@
+//Stringa per i commenti
+<com d="15/05/2018 10:01:01">
+	<idUt></idUt>
+	<msg></msg>
+</com>
+
+//Stringa per i like
+<lik d="15/05/2018 10:01:01">
+	<idUt></idUt>
+</lik>
+
+//Stringa per i post
+<pos d="15/05/2018 10:01:01">
+	<lnk></lnk>
+	   ....
+	<lnk></lnk>
+	<des></des>
+</pos>

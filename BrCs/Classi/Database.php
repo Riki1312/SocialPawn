@@ -39,18 +39,16 @@ class Database
     }
 
 
-    public function InsertAccount($nickName, $password){
-        if(!$this->ExistAccount($nickName)){
-            $sql = "INSERT INTO Users(nickName, password, idPr) VALUES('".$nickName."', '".md5($password).", 1')";
-            $this->Query($sql);
-        }
+    public function InsertAccount($nickNameTest, $emailTest, $passwordTest){
+        $sql = "INSERT INTO `users`(`nickName`, `email`, `password`, `idPr`) VALUES ('".$nickNameTest."','".$emailTest."','".md5($passwordTest)."',2)";
+        $this->Query($sql);
     }
     /*
      * True: esiste
      * False: non esiste
      */
     public function SigninAccount($nickNameTest, $passwordTest){
-        $record = $this->Query("SELECT COUNT(*) AS exist FROM Users WHERE Users.nickName = '".$nickNameTest."' AND Users.password = '".$passwordTest."'");
+        $record = $this->Query("SELECT COUNT(*) AS exist FROM users WHERE nickName = '".$nickNameTest."' AND password = '".md5($passwordTest)."'");
 
         $record = $record->fetch_assoc();
         if($record["exist"]==1)
@@ -59,7 +57,7 @@ class Database
             return false;
     }
     public function ExistAccount($nickNameTest){
-        $record = $this->Query("SELECT COUNT(*) AS exist FROM Users WHERE Users.nickName = '".$nickNameTest."'");
+        $record = $this->Query("SELECT COUNT(*) AS exist FROM users WHERE nickName = '".$nickNameTest."'");
 
         $record = $record->fetch_assoc();
         if($record["exist"]==1)

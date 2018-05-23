@@ -1,0 +1,8 @@
+Da fare:
+ - Database ancora da completare, tabelle mancanti (Posts, Comments)
+ - Creare struttura per il salvataggio di foto/video
+ 
+
+Test da effettuare:
+ - Contorllo sulla condivisione di foto/video
+ - Controllo sul caricamento di foto/video nella pagina
