@@ -17,28 +17,40 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BrCs/Page/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+            <state relative-caret-position="663">
+              <caret line="39" column="107" selection-start-line="39" selection-start-column="107" selection-end-line="39" selection-end-column="107" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainScript.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BrCs/JavaScript/MainScript.js">
+      <file leaf-file-name="Ajax.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BrCs/Ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractHtml.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BrCs/JavaScript/AbstractHtml.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+            <state relative-caret-position="235">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#221#775#0#PHP" />
+                <element signature="e#746#775#0#PHP" />
+                <element signature="n#InsertUser#0;n#!!top" />
+                <element signature="n#UpdateProfile#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Component.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BrCs/Classi/Component.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="173" column="104" selection-start-line="173" selection-start-column="104" selection-end-line="173" selection-end-column="104" />
+              <folding>
+                <element signature="e#341#765#0#PHP" />
+                <element signature="e#770#1079#0#PHP" />
+                <element signature="e#1085#4058#0#PHP" />
+                <element signature="e#4063#6096#0#PHP" />
+                <element signature="e#6102#7002#0#PHP" />
+                <element signature="e#7008#7186#0#PHP" />
+                <element signature="e#7191#7365#0#PHP" />
               </folding>
             </state>
           </provider>
@@ -83,10 +95,11 @@
         <option value="$PROJECT_DIR$/SocialPawn_Login-Singup_finito/Login/login.html" />
         <option value="$PROJECT_DIR$/SocialPawn_Login-Singup_finito/SignUp/singup.html" />
         <option value="$PROJECT_DIR$/SocialPawn_Login-Singup_finito/JavaScript/Ajax.js" />
-        <option value="$PROJECT_DIR$/BrCs/Classi/Component.php" />
-        <option value="$PROJECT_DIR$/BrCs/Page/home.html" />
         <option value="$PROJECT_DIR$/BrCs/JavaScript/AbstractHtml.js" />
         <option value="$PROJECT_DIR$/BrCs/JavaScript/MainScript.js" />
+        <option value="$PROJECT_DIR$/BrCs/Page/home.html" />
+        <option value="$PROJECT_DIR$/BrCs/Classi/Component.php" />
+        <option value="$PROJECT_DIR$/BrCs/Ajax.php" />
       </list>
     </option>
   </component>
@@ -113,18 +126,18 @@
           <expand>
             <path>
               <item name="SocialPawn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SocialPawn" type="462c0819:PsiDirectoryNode" />
+              <item name="SocialPawn" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="SocialPawn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SocialPawn" type="462c0819:PsiDirectoryNode" />
-              <item name="BrCs" type="462c0819:PsiDirectoryNode" />
+              <item name="SocialPawn" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BrCs" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="SocialPawn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SocialPawn" type="462c0819:PsiDirectoryNode" />
-              <item name="BrCs" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="SocialPawn" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BrCs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Classi" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -135,7 +148,7 @@
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Git-2.17.0-64-bit.exe" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/git-cmd.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -174,7 +187,7 @@
       <workItem from="1526846021009" duration="1254000" />
       <workItem from="1526848710264" duration="1156000" />
       <workItem from="1527108556984" duration="578000" />
-      <workItem from="1527109445614" duration="39000" />
+      <workItem from="1527109445614" duration="1330000" />
     </task>
     <task id="LOCAL-00001" summary="Update id in html">
       <created>1527108828211</created>
@@ -187,7 +200,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7084000" />
+    <option name="totallyTimeSpent" value="8375000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -201,7 +214,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3283582" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3286385" />
@@ -258,6 +271,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update id in html" />
     <option name="LAST_COMMIT_MESSAGE" value="Update id in html" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/BrCs/Page/home.html">
@@ -319,20 +337,6 @@
     <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/Page/singup.html" />
     <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/Page/login.html" />
     <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/JavaScript/Ajax.js" />
-    <entry file="file://$PROJECT_DIR$/BrCs/Classi/Component.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BrCs/Ajax.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BrCs/Classi/Database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -340,16 +344,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BrCs/Page/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BrCs/JavaScript/AbstractHtml.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="17">
           <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -359,8 +356,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BrCs/JavaScript/MainScript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="405">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BrCs/Page/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="107" selection-start-line="39" selection-start-column="107" selection-end-line="39" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BrCs/Classi/Component.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="173" column="104" selection-start-line="173" selection-start-column="104" selection-end-line="173" selection-end-column="104" />
+          <folding>
+            <element signature="e#341#765#0#PHP" />
+            <element signature="e#770#1079#0#PHP" />
+            <element signature="e#1085#4058#0#PHP" />
+            <element signature="e#4063#6096#0#PHP" />
+            <element signature="e#6102#7002#0#PHP" />
+            <element signature="e#7008#7186#0#PHP" />
+            <element signature="e#7191#7365#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BrCs/Ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="e#221#775#0#PHP" />
+            <element signature="e#746#775#0#PHP" />
+            <element signature="n#InsertUser#0;n#!!top" />
+            <element signature="n#UpdateProfile#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
