@@ -83,8 +83,10 @@ class Components
                 'time' => "",
                 'uName' => $data['nickName'],
                 'uImg' => $data['srcPhoto'],
+                //Cambiare
                 'cText' => "pippo",
-                'cImg'=> "",
+                'cImg'=> "../postEsempio.png",
+                //
                 'comments' => array()
                 //(object)array(user=> "", text=> "")
             );
@@ -107,6 +109,55 @@ class Components
                 array_push($obj->comments, (object)array('user'=> $data['nickName'], 'text'=> $data['txt']));
             }
 
+
+            array_push($arrayPosts, $obj);
+        }
+
+        return $arrayPosts;
+    }
+    public function UpdatePost($idPost){
+        $arrayPosts = [];
+
+
+        for($count = 0; $count<count($idPost); $count++){
+            //Query per ottenre i dati dell'utente
+            $sql = "SELECT users.nickName, users.srcPhoto FROM users WHERE users.idUt = (SELECT idUt FROM posts WHERE idPs = ".$idPost[$count].")";
+            $result = $this->database->Query($sql);
+            $data = $result->fetch_assoc();
+            //Inizio riempimento dati
+            $obj =  (object)array(
+                'id' => $idPost[$count],
+                'claps' => "",
+                'likes' => "",
+                'time' => "",
+                'uName' => $data['nickName'],
+                'uImg' => $data['srcPhoto'],
+                //Cambiare
+                'cText' => "pluto",
+                'cImg'=> "../postEsempio.png",
+                //
+                'comments' => array()
+            );
+            //Ottiene like e claps
+            $sql = "SELECT SUM(likes.claps) AS claps, SUM(likes.likes) AS likes FROM likes WHERE likes.idPs = ".$idPost[$count];
+            $result = $this->database->Query($sql);
+            $data = $result->fetch_assoc();
+            $obj->claps = $data['claps'];
+            $obj->likes = $data['likes'];
+
+            $sql = "SELECT SUM(likes.claps) AS claps, SUM(likes.likes) AS likes FROM likes WHERE likes.idPs = ".$idPost[$count];
+            $result = $this->database->Query($sql);
+            $data = $result->fetch_assoc();
+            //$obj->cText = ;
+
+            //Ottiene tutti i commenti
+            $sql = "SELECT users.nickName, comments.txt FROM comments, users WHERE comments.idPs = ".$idPost[$count]." AND users.idUt = comments.idUt ORDER BY comments.date ASC";
+            $result = $this->database->Query($sql);
+            while ($data = $result->fetch_assoc()){
+                array_push($obj->comments, (object)array('user'=> $data['nickName'], 'text'=> $data['txt']));
+            }
+
+
             array_push($arrayPosts, $obj);
         }
 
@@ -127,7 +178,6 @@ class Components
 
         $this->data = $obj;
     }
-    public function UpdatePost(){}
 
     public function ChangePassword($password){
         $sql = "UPDATE users SET password = '".md5(password)."' WHERE idUt = ".$this->idUt;

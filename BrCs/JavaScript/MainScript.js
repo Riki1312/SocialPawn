@@ -6,7 +6,7 @@ window.onload = () => {
 
     HtmlPost = AbstractHtmlPost();
 
-    let serverPosts = PreGetPosts(NumPosts);
+    PreGetPosts(NumPosts);
     /*
     for (let i = 0; i < serverPosts.length; i++)
         HtmlPost.posts.push(serverPosts[i]);
@@ -17,12 +17,12 @@ window.onload = () => {
 
 function TimerTick() {
 
-    /*let serverPosts = UpdatePost(() => {
+    PreUpdatePosts(() => {
         idPosts = [];
         for (let i = 0; i < HtmlPost.leading; i++)
             idPosts.push(HtmlPost.posts[i].id);
         return idPosts;
-    });*/
+    });
     if(data!=null){
         serverPosts = JSON.parse(data.data);
 

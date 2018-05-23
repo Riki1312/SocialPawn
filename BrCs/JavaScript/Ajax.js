@@ -33,6 +33,13 @@ function PreGetPosts(numPosts) {
 
     return data;
 }
+function PreUpdatePosts(idPosts){
+    var obj = new Object({
+        "idPosts": [1,2]
+    });
+    //idPosts
+    AjaxSend("updatePosts", obj);
+}
 
 function AjaxSend(action, obj) {
     var richiesta = new XMLHttpRequest();
@@ -55,6 +62,9 @@ function AjaxSend(action, obj) {
                     DataProfile(obj);
                     break;
                 case "getPosts":
+                    GetPosts(obj);
+                    break;
+                case "updatePosts":
                     GetPosts(obj);
                     break;
 
@@ -97,6 +107,5 @@ function DataProfile(obj) {
 }
 
 function GetPosts(obj) {
-
     data = obj;
 }

@@ -32,6 +32,9 @@ if(isset($_REQUEST["action"]) && isset($_REQUEST["data"])){
         case 'getPosts':
             GetPosts();
             break;
+        case 'updatePosts':
+            UpdatePosts();
+            break;
 
         default:
             $message = '999';
@@ -82,6 +85,13 @@ function GetPosts(){
 
 
     $GLOBALS['data'] = json_encode($User->GetPosts($obj['idUser'], $obj['numPosts']));
+}
+function UpdatePosts(){
+    $obj = json_decode($_REQUEST["data"], true);
+    $User = new Components();
+
+
+    $GLOBALS['data'] = json_encode($User->UpdatePost($obj['idPosts']));
 }
 
 /* --- */
