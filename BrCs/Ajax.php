@@ -83,16 +83,13 @@ function GetPosts(){
      * N viene formito nella stringa JSON
      */
     $obj = json_decode($_REQUEST["data"], true);
-
     $User = new Components();
-
 
     $GLOBALS['data'] = json_encode($User->GetPosts($_SESSION['idUser'], $obj['numPosts']));
 }
 function UpdatePosts(){
     $obj = json_decode($_REQUEST["data"], true);
     $User = new Components();
-
 
     //$GLOBALS['data'] = json_encode($User->UpdatePost($obj['idPosts']));
 }
