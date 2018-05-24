@@ -18,25 +18,32 @@
         <entry file="file://$PROJECT_DIR$/BrCs/Page/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="305">
-              <caret line="47" column="26" lean-forward="true" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+              <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Database.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Ajax.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BrCs/Ajax.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="574">
+              <caret line="93" column="4" selection-start-line="93" selection-start-column="4" selection-end-line="93" selection-end-column="71" />
+              <folding>
+                <element signature="e#221#775#0#PHP" />
+                <element signature="e#746#775#0#PHP" />
+                <element signature="n#InsertUser#0;n#!!top" />
+                <element signature="n#UpdateProfile#0;n#!!top" />
+                <element signature="e#1599#1724#0#PHP" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Database.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BrCs/Classi/Database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="18" column="115" selection-start-line="18" selection-start-column="93" selection-end-line="18" selection-end-column="115" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="id5754313_brcs.sql" pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/Downloads/id5754313_brcs.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+            <state relative-caret-position="84">
+              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -45,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/BrCs/Page/addpost.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -53,13 +60,12 @@
       <file leaf-file-name="Component.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BrCs/Classi/Component.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="897">
               <caret line="173" column="104" selection-start-line="173" selection-start-column="104" selection-end-line="173" selection-end-column="104" />
               <folding>
                 <element signature="e#341#765#0#PHP" />
                 <element signature="e#770#1079#0#PHP" />
                 <element signature="e#1085#4058#0#PHP" />
-                <element signature="e#4063#6096#0#PHP" />
                 <element signature="e#6102#7002#0#PHP" />
               </folding>
             </state>
@@ -109,11 +115,11 @@
         <option value="$PROJECT_DIR$/BrCs/JavaScript/AbstractHtml.js" />
         <option value="$PROJECT_DIR$/BrCs/JavaScript/MainScript.js" />
         <option value="$PROJECT_DIR$/BrCs/Classi/Component.php" />
-        <option value="$PROJECT_DIR$/BrCs/Ajax.php" />
         <option value="$PROJECT_DIR$/BrCs/Page/addpost.html" />
         <option value="$PROJECT_DIR$/BrCs/Page/home.html" />
-        <option value="$PROJECT_DIR$/BrCs/Classi/Database.php" />
         <option value="$USER_HOME$/Downloads/id5754313_brcs.sql" />
+        <option value="$PROJECT_DIR$/BrCs/Ajax.php" />
+        <option value="$PROJECT_DIR$/BrCs/Classi/Database.php" />
       </list>
     </option>
   </component>
@@ -214,7 +220,7 @@
       <workItem from="1526848710264" duration="1156000" />
       <workItem from="1527108556984" duration="578000" />
       <workItem from="1527109445614" duration="1330000" />
-      <workItem from="1527141884893" duration="2357000" />
+      <workItem from="1527141884893" duration="2886000" />
     </task>
     <task id="LOCAL-00001" summary="Update id in html">
       <created>1527108828211</created>
@@ -227,7 +233,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10732000" />
+    <option name="totallyTimeSpent" value="11261000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -302,7 +308,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -321,7 +327,6 @@
             <element signature="e#341#765#0#PHP" />
             <element signature="e#770#1079#0#PHP" />
             <element signature="e#1085#4058#0#PHP" />
-            <element signature="e#4063#6096#0#PHP" />
             <element signature="e#6102#7002#0#PHP" />
           </folding>
         </state>
@@ -408,15 +413,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BrCs/Img/svg-home-profilo/sezione10.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BrCs/Page/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/id5754313_brcs.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5044">
+          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BrCs/Page/addpost.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BrCs/Classi/Component.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="897">
           <caret line="173" column="104" selection-start-line="173" selection-start-column="104" selection-end-line="173" selection-end-column="104" />
           <folding>
             <element signature="e#341#765#0#PHP" />
             <element signature="e#770#1079#0#PHP" />
             <element signature="e#1085#4058#0#PHP" />
-            <element signature="e#4063#6096#0#PHP" />
             <element signature="e#6102#7002#0#PHP" />
           </folding>
         </state>
@@ -424,8 +452,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BrCs/Ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="29" />
+        <state relative-caret-position="574">
+          <caret line="93" column="4" selection-start-line="93" selection-start-column="4" selection-end-line="93" selection-end-column="71" />
           <folding>
             <element signature="e#221#775#0#PHP" />
             <element signature="e#746#775#0#PHP" />
@@ -436,34 +464,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BrCs/Img/svg-home-profilo/sezione10.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BrCs/Page/addpost.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BrCs/Page/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="47" column="26" lean-forward="true" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BrCs/Classi/Database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="18" column="115" selection-start-line="18" selection-start-column="93" selection-end-line="18" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/id5754313_brcs.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="84">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
         </state>
       </provider>
     </entry>
