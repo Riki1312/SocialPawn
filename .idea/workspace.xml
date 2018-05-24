@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55c6d834-70cc-4d83-a60d-aba5ed54c6a9" name="Default" comment="">
+    <list default="true" id="55c6d834-70cc-4d83-a60d-aba5ed54c6a9" name="Default" comment="Update id in html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BrCs/JavaScript/MainScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/BrCs/JavaScript/MainScript.js" afterDir="false" />
     </list>
@@ -17,17 +17,35 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BrCs/Page/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="42" />
+            <state relative-caret-position="305">
+              <caret line="47" column="26" lean-forward="true" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addpost.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Database.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BrCs/Classi/Database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="67">
+              <caret line="18" column="115" selection-start-line="18" selection-start-column="93" selection-end-line="18" selection-end-column="115" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="id5754313_brcs.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/Downloads/id5754313_brcs.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addpost.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BrCs/Page/addpost.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="272">
+              <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -60,6 +78,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>../</find>
+      <find>svg/</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -91,8 +110,10 @@
         <option value="$PROJECT_DIR$/BrCs/JavaScript/MainScript.js" />
         <option value="$PROJECT_DIR$/BrCs/Classi/Component.php" />
         <option value="$PROJECT_DIR$/BrCs/Ajax.php" />
-        <option value="$PROJECT_DIR$/BrCs/Page/home.html" />
         <option value="$PROJECT_DIR$/BrCs/Page/addpost.html" />
+        <option value="$PROJECT_DIR$/BrCs/Page/home.html" />
+        <option value="$PROJECT_DIR$/BrCs/Classi/Database.php" />
+        <option value="$USER_HOME$/Downloads/id5754313_brcs.sql" />
       </list>
     </option>
   </component>
@@ -193,7 +214,7 @@
       <workItem from="1526848710264" duration="1156000" />
       <workItem from="1527108556984" duration="578000" />
       <workItem from="1527109445614" duration="1330000" />
-      <workItem from="1527141884893" duration="1489000" />
+      <workItem from="1527141884893" duration="2357000" />
     </task>
     <task id="LOCAL-00001" summary="Update id in html">
       <created>1527108828211</created>
@@ -206,7 +227,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9864000" />
+    <option name="totallyTimeSpent" value="10732000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -218,7 +239,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
@@ -373,13 +394,6 @@
     <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/Page/singup.html" />
     <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/Page/login.html" />
     <entry file="file://$PROJECT_DIR$/SocialPawn_Login-Singup_finito/JavaScript/Ajax.js" />
-    <entry file="file://$PROJECT_DIR$/BrCs/Classi/Database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BrCs/JavaScript/AbstractHtml.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -422,20 +436,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BrCs/Page/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BrCs/Img/svg-home-profilo/sezione10.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/BrCs/Page/addpost.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="272">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BrCs/Page/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="47" column="26" lean-forward="true" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BrCs/Classi/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="18" column="115" selection-start-line="18" selection-start-column="93" selection-end-line="18" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/id5754313_brcs.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
         </state>
       </provider>
     </entry>
