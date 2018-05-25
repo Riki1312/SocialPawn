@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf4385f6-fe21-4861-8f6b-6bb5462fe5f6" name="Default" comment="" />
+    <list default="true" id="bf4385f6-fe21-4861-8f6b-6bb5462fe5f6" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/BrCs/Page/home.html" afterPath="$PROJECT_DIR$/BrCs/Page/home.html" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -24,11 +26,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profilo.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="profilo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BrCs/Page/profilo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="184">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BrCs/Page/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="60" column="59" lean-forward="true" selection-start-line="60" selection-start-column="59" selection-end-line="60" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -43,6 +55,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/BrCs/Page/profilo.html" />
+        <option value="$PROJECT_DIR$/BrCs/Page/home.html" />
       </list>
     </option>
   </component>
@@ -52,7 +65,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -87,6 +100,12 @@
               <item name="SocialPawn" type="b2602c69:ProjectViewProjectNode" />
               <item name="SocialPawn" type="462c0819:PsiDirectoryNode" />
               <item name="BrCs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SocialPawn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SocialPawn" type="462c0819:PsiDirectoryNode" />
+              <item name="BrCs" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SocialPawn" type="b2602c69:ProjectViewProjectNode" />
@@ -130,7 +149,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527239520253</updated>
-      <workItem from="1527239527197" duration="973000" />
+      <workItem from="1527239527197" duration="1824000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1527240097429</created>
@@ -150,10 +169,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="973000" />
+    <option name="totallyTimeSpent" value="1824000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -200,8 +219,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BrCs/Page/profilo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="184">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BrCs/Page/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="60" column="59" lean-forward="true" selection-start-line="60" selection-start-column="59" selection-end-line="60" selection-end-column="59" />
           <folding />
         </state>
       </provider>
