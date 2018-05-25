@@ -61,13 +61,9 @@ function AbstractHtmlPost(postContainer = "postcontainer") {
         '<img src="' + PathSvgHome + 'sezione5.svg"/>' +
         '</div>' +
         '<div class="div-block-4">' +
-        '<p class="paragraph">' +
-        '<strong class="bold-text">{{ post.comments[0].user }}: </strong>' +
-        '{{ post.comments[0].text }}' +
-        '</p>' +
-        '<p class="paragraph">' +
-        '<strong class="bold-text">{{ post.comments[1].user }}: </strong>' +
-        '{{ post.comments[1].text }}' +
+        '<p class="paragraph" v-for="comment in comments">' +
+        '<strong class="bold-text">{{ comment.user }}: </strong>' +
+        '{{ comment.text }}' +
         '</p>' +
         '</div>' +
         '<div class="div-block-6">' +
