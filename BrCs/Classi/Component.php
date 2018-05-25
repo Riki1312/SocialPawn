@@ -170,6 +170,10 @@ class Components
         $this->data = $obj;
     }
 
+    public function GetIdUser($nickNameTest){
+        $record = $this->database->Query("SELECT idUt FROM users WHERE nickName = '".$nickNameTest."'");
+        return $record->fetch_assoc()['idUt'];
+    }
     public function ChangePassword($password){
         $sql = "UPDATE users SET password = '".md5(password)."' WHERE idUt = ".$this->idUt;
         $this->database->Query($sql);

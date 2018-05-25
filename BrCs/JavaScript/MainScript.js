@@ -19,7 +19,7 @@ function TimerTick() {
 
     var GetIdPosts = () => {
         idPosts = [];
-        for (let i = 0; i < HtmlPost.leading; i++)
+        for (let i = 0; i < HtmlPost.lenght; i++)
             idPosts.push(HtmlPost.posts[i].id);
         return idPosts;
     };

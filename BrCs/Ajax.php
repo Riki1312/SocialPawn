@@ -50,12 +50,15 @@ Answer();
 function Login(){
     $obj = json_decode($_REQUEST["data"], true);
 
-    $_SESSION['nickName'] = $obj['nickName'];
-    $_SESSION['password'] = md5($obj['password']);
 
     $User = new Components();
     $User->LogInAccount($obj['nickName'], $obj['password']);
     $GLOBALS['message'] = $User->message;
+
+    $_SESSION['nickName'] = $obj['nickName'];
+    $_SESSION['password'] = md5($obj['password']);
+    $_SESSION['idUser'] = $User->GetIdUser($obj['nickName']);
+
 }
 function InsertUser(){
     $obj = json_decode($_REQUEST["data"], true);
@@ -80,18 +83,15 @@ function GetPosts(){
      * N viene formito nella stringa JSON
      */
     $obj = json_decode($_REQUEST["data"], true);
-
     $User = new Components();
 
-
-    $GLOBALS['data'] = json_encode($User->GetPosts($obj['idUser'], $obj['numPosts']));
+    $GLOBALS['data'] = json_encode($User->GetPosts($_SESSION['idUser'], $obj['numPosts']));
 }
 function UpdatePosts(){
     $obj = json_decode($_REQUEST["data"], true);
     $User = new Components();
 
-
-    //$GLOBALS['data'] = json_encode($User->UpdatePost($obj['idPosts']));
+    $GLOBALS['data'] = json_encode($User->UpdatePost($obj['idPosts']));
 }
 
 /* --- */
