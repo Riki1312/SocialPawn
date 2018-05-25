@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Creato il: Mag 22, 2018 alle 09:03
+-- Creato il: Mag 25, 2018 alle 17:12
 -- Versione del server: 10.1.31-MariaDB
 -- Versione PHP: 7.0.26
 
@@ -19,11 +19,10 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `id5754313_brcs`
+-- Database: `id5754313_bdsocialpawn`
 --
-DROP DATABASE IF EXISTS `id5754313_brcs`;
-CREATE DATABASE IF NOT EXISTS `id5754313_brcs` DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
-USE `id5754313_brcs`;
+CREATE DATABASE IF NOT EXISTS `id5754313_bdsocialpawn` DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+USE `id5754313_bdsocialpawn`;
 
 -- --------------------------------------------------------
 
@@ -39,6 +38,16 @@ CREATE TABLE `comments` (
   `txt` text COLLATE utf8_unicode_ci NOT NULL,
   `date` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Dump dei dati per la tabella `comments`
+--
+
+INSERT INTO `comments` (`idCm`, `idPs`, `idUt`, `txt`, `date`) VALUES
+(5, 3, 1, 'Primo commento ahahah', '2018-05-23 00:00:00'),
+(6, 3, 1, 'Secondo commento ahahah', '2018-05-23 00:00:00'),
+(7, 4, 1, 'BELLA', '2018-05-25 00:00:00'),
+(8, 4, 1, 'BELLA', '0000-00-00 00:00:00');
 
 -- --------------------------------------------------------
 
@@ -58,9 +67,7 @@ CREATE TABLE `follower` (
 --
 
 INSERT INTO `follower` (`idFl`, `idUt`, `idFollowing`) VALUES
-(1, 1, 2),
-(2, 1, 3),
-(3, 2, 1);
+(5, 1, 2);
 
 -- --------------------------------------------------------
 
@@ -70,11 +77,19 @@ INSERT INTO `follower` (`idFl`, `idUt`, `idFollowing`) VALUES
 
 DROP TABLE IF EXISTS `likes`;
 CREATE TABLE `likes` (
+  `idLike` int(11) NOT NULL,
   `idPs` int(11) NOT NULL,
   `idUt` int(11) NOT NULL,
-  `claps` bigint(20) NOT NULL,
-  `likes` tinyint(1) NOT NULL
+  `claps` bigint(20) NOT NULL DEFAULT '0',
+  `likes` bigint(20) NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Dump dei dati per la tabella `likes`
+--
+
+INSERT INTO `likes` (`idLike`, `idPs`, `idUt`, `claps`, `likes`) VALUES
+(3, 3, 1, 5, 1);
 
 -- --------------------------------------------------------
 
@@ -87,10 +102,18 @@ CREATE TABLE `posts` (
   `idPs` int(11) NOT NULL,
   `idUt` int(11) NOT NULL,
   `idPt` int(11) NOT NULL,
-  `srcFile` text COLLATE utf8_unicode_ci NOT NULL,
-  `txt` text COLLATE utf8_unicode_ci NOT NULL,
+  `srcFile` text COLLATE utf8_unicode_ci,
+  `txt` text COLLATE utf8_unicode_ci,
   `date` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Dump dei dati per la tabella `posts`
+--
+
+INSERT INTO `posts` (`idPs`, `idUt`, `idPt`, `srcFile`, `txt`, `date`) VALUES
+(3, 2, 1, NULL, 'Ciao basta ', '2018-05-23 00:00:00'),
+(4, 2, 1, NULL, 'Post di prova UPDATE', '2018-05-25 00:00:00');
 
 -- --------------------------------------------------------
 
@@ -158,8 +181,8 @@ CREATE TABLE `users` (
   `email` text COLLATE utf8_unicode_ci NOT NULL,
   `password` varchar(32) COLLATE utf8_unicode_ci NOT NULL,
   `idPr` int(11) NOT NULL DEFAULT '1',
-  `srcPhoto` text COLLATE utf8_unicode_ci NOT NULL,
-  `bio` text COLLATE utf8_unicode_ci NOT NULL
+  `srcPhoto` varchar(1024) COLLATE utf8_unicode_ci NOT NULL DEFAULT '../Uplaod - IMG/Users/user.svg',
+  `bio` varchar(512) COLLATE utf8_unicode_ci NOT NULL DEFAULT 'Anch''io sono su SocialPawn'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
@@ -167,10 +190,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`idUt`, `nickName`, `email`, `password`, `idPr`, `srcPhoto`, `bio`) VALUES
-(1, 'Costa', 'c.matty.2000@gmail.com', 'password', 1, '', 'Sono il dio dei PAWN!!\r\n'),
-(2, 'Riki', 'riccardo@emial.com', 'password', 1, '', 'Sono stra gud!'),
-(3, 'Bello', 'ciao@gmail.com', 'password', 1, '', ''),
-(9, 'Costa_', 'c.matty.2000@gmail.com', '5f4dcc3b5aa765d61d8327deb882cf99', 2, '', '');
+(1, 'Costa', 'c.matty.2000@gmail.com', '5f4dcc3b5aa765d61d8327deb882cf99', 1, '', 'Hey!! Anch\'io sono SocialPawn.'),
+(2, 'Ale', 'c.matty.2000@gmail.com', '5f4dcc3b5aa765d61d8327deb882cf99', 2, '../Uplaod - IMG/Users/user.svg', 'Anch\'io sono su SocialPawn'),
+(3, 'rikiTest', 'rikiTest@gimail.com', '202cb962ac59075b964b07152d234b70', 2, '../Uplaod - IMG/Users/user.svg', 'Anch\'io sono su SocialPawn');
 
 --
 -- Indici per le tabelle scaricate
@@ -196,8 +218,9 @@ ALTER TABLE `follower`
 -- Indici per le tabelle `likes`
 --
 ALTER TABLE `likes`
-  ADD PRIMARY KEY (`idPs`),
-  ADD KEY `likes_ibfk_2` (`idUt`);
+  ADD PRIMARY KEY (`idLike`),
+  ADD KEY `likes_ibfk_2` (`idUt`),
+  ADD KEY `idPs` (`idPs`);
 
 --
 -- Indici per le tabelle `posts`
@@ -237,10 +260,28 @@ ALTER TABLE `users`
 --
 
 --
+-- AUTO_INCREMENT per la tabella `comments`
+--
+ALTER TABLE `comments`
+  MODIFY `idCm` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+
+--
 -- AUTO_INCREMENT per la tabella `follower`
 --
 ALTER TABLE `follower`
-  MODIFY `idFl` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `idFl` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
+--
+-- AUTO_INCREMENT per la tabella `likes`
+--
+ALTER TABLE `likes`
+  MODIFY `idLike` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT per la tabella `posts`
+--
+ALTER TABLE `posts`
+  MODIFY `idPs` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT per la tabella `priority`
@@ -252,7 +293,7 @@ ALTER TABLE `priority`
 -- AUTO_INCREMENT per la tabella `users`
 --
 ALTER TABLE `users`
-  MODIFY `idUt` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `idUt` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- Limiti per le tabelle scaricate
@@ -262,8 +303,8 @@ ALTER TABLE `users`
 -- Limiti per la tabella `comments`
 --
 ALTER TABLE `comments`
-  ADD CONSTRAINT `comments_ibfk_1` FOREIGN KEY (`idPs`) REFERENCES `posts` (`idPs`) ON DELETE CASCADE ON UPDATE CASCADE,
-  ADD CONSTRAINT `comments_ibfk_2` FOREIGN KEY (`idUt`) REFERENCES `users` (`idUt`) ON DELETE CASCADE ON UPDATE CASCADE;
+  ADD CONSTRAINT `comments_ibfk_2` FOREIGN KEY (`idUt`) REFERENCES `users` (`idUt`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `comments_ibfk_3` FOREIGN KEY (`idPs`) REFERENCES `posts` (`idPs`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Limiti per la tabella `follower`
@@ -276,14 +317,15 @@ ALTER TABLE `follower`
 -- Limiti per la tabella `likes`
 --
 ALTER TABLE `likes`
-  ADD CONSTRAINT `likes_ibfk_1` FOREIGN KEY (`idPs`) REFERENCES `posts` (`idPs`) ON DELETE CASCADE ON UPDATE CASCADE,
-  ADD CONSTRAINT `likes_ibfk_2` FOREIGN KEY (`idUt`) REFERENCES `users` (`idUt`) ON DELETE CASCADE ON UPDATE CASCADE;
+  ADD CONSTRAINT `likes_ibfk_2` FOREIGN KEY (`idUt`) REFERENCES `users` (`idUt`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `likes_ibfk_3` FOREIGN KEY (`idPs`) REFERENCES `posts` (`idPs`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Limiti per la tabella `posts`
 --
 ALTER TABLE `posts`
-  ADD CONSTRAINT `posts_ibfk_1` FOREIGN KEY (`idPt`) REFERENCES `posttype` (`idPt`);
+  ADD CONSTRAINT `posts_ibfk_1` FOREIGN KEY (`idPt`) REFERENCES `posttype` (`idPt`),
+  ADD CONSTRAINT `posts_ibfk_2` FOREIGN KEY (`idUt`) REFERENCES `users` (`idUt`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Limiti per la tabella `users`
