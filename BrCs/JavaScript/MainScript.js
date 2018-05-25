@@ -19,23 +19,22 @@ function TimerTick() {
 
     var GetIdPosts = () => {
         idPosts = [];
-        for (let i = 0; i < HtmlPost.lenght; i++)
+        for (let i = 0; i < HtmlPost.length; i++)
             idPosts.push(HtmlPost.posts[i].id);
         return idPosts;
     };
     PreUpdatePosts(GetIdPosts());
 
-    if(data!=null){
-        serverPosts = data;
+    if (data!=null) {
+        let serverPosts = data;
 
         data = null;
 
         for (let i = 0; i < serverPosts.length; i++)
         {
-
-            if(serverPosts[i].claps == null)
+            if (serverPosts[i].claps == null)
                 serverPosts[i].claps = 0;
-            if(serverPosts[i].likes == null)
+            if (serverPosts[i].likes == null)
                 serverPosts[i].likes = 0;
 
             if (i < HtmlPost.leading)
@@ -56,34 +55,20 @@ function TimerTick() {
                 HtmlPost.posts.push(serverPosts[i]);
         }
     }
-
-
-
 }
 
 //INFO//
 /*
- if (HtmlPost.posts.length)
- HtmlPost.posts.push(
- {
- id: 1
- claps: 12,
- likes: 34,
- time: "2 ORE FA",
- uName: "Utente",
- uImg: PathPngHome + "ddd",
- cText: "dddddddd",
- cImg: PathPngHome + "ssss",
- comments: [{ user: "rrr", text: "dddd" }, { user: "dgdf", text: "dffdffd" }]
- }
- );
-*/
+{
+    claps: -,
+    likes: -,
+    time: -,
+    uName: -,
+    uImg: -,
+    cText: -,
+    cImg: -,
+    comments: [{ user: -, text: - }, { user: -, text: - }]
+}
+ */
 
 //TEST//
-function GetPost() {
-
-}
-function UpdatePost() {
-
-}
-

@@ -1,20 +1,14 @@
 /*
-
- for (let i = 0; i < Numero; i++) {
- posts.posts.push(
-     {
-         claps: Dati[i].claps,
-         likes: Dati[i].likes,
-         time: Dati[i].tempo,
-         uName: Utente[i].nome,
-         uImg: PathPngHome + Utente[i].imgProfilo,
-         cText: Contenuto[i].testo,
-         cImg: PathPngHome + Contenuto[i].imgs,
-         comments: [{ user: Commenti[i][0].nome, text: Commenti[i][0].testo }, { user: Commenti[i][1].nome, text: Commenti[i][1].testo }]
-     }
- );
- }
-
+{
+    claps: -,
+    likes: -,
+    time: -,
+    uName: -,
+    uImg: -,
+    cText: -,
+    cImg: -,
+    comments: [{ user: -, text: - }, { user: -, text: - }]
+}
  */
 
 let PathSvgHome = "../Img/svg-home-profilo/";
@@ -93,6 +87,5 @@ function AbstractHtmlPost(postContainer = "postcontainer") {
             posts: []
         }
     });
-
     return posts;
 }
