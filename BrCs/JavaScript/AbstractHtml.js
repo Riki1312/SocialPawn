@@ -89,3 +89,48 @@ function AbstractHtmlPost(postContainer = "postcontainer") {
     });
     return posts;
 }
+
+function AbstractHtmlProfiloPost(postContainer = "divprofilo") {
+
+    document.getElementsByClassName(postContainer)[0].innerHTML = '' +
+        '<div class="postsmall w-clearfix">' +
+        '<div class="postsmallinfo">' +
+        '<div>' +
+        '<img src="../Img/svg-home-profilo/sezione9-2.svg" class="image-14-coypy"/>' +
+        '<div class="text-blockr-copy">23 K</div>' +
+        '</div>' +
+        '<div>' +
+        '<img src="../Img/svg-home-profilo/sezione8.svg" class="image-14"/>' +
+        '<div class="text-block-copy">2 K</div>' +
+        '</div>' +
+        '<div>' +
+        '<img src="../Img/svg-home-profilo/sezione7.svg" class="image-14-copy"/>' +
+        '<div class="text-blockr">54</div>' +
+        '</div>' +
+        '</div>' +
+        '<div class="postsmallcontainer">' +
+        '<div class="div-block-20 w-clearfix">' +
+        '<div class="div-block-18 w-clearfix">' +
+        '<h2 class="nomeutente-copy">rikib</h2>' +
+        '<p class="paragraph-copy">Testo descrizione del post per scriverecose belle. #photo #space</p>' +
+        '</div>' +
+        '</div>' +
+        '<div class="div-block-19 w-clearfix">' +
+        '<div class="text-block">Elimina</div>' +
+        '<div class="text-block">Condividi</div>' +
+        '<div class="text-block">Dettagli</div>' +
+        '</div>' +
+        '</div>' +
+        '<div class="postsmallespandi">' +
+        '<img src="../Img/svg-home-profilo/sezione16.svg" class="image-15"/>' +
+        '</div>' +
+        '</div>' +
+        '';
+
+    return posts = new Vue({
+        el: '.divprofilo',
+        data: {
+            posts: []
+        }
+    });
+}
