@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bf4385f6-fe21-4861-8f6b-6bb5462fe5f6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/BrCs/Comuni/socialpawn-home.css" afterPath="$PROJECT_DIR$/BrCs/Comuni/socialpawn-home.css" />
-      <change beforePath="$PROJECT_DIR$/BrCs/JavaScript/AbstractHtml.js" afterPath="$PROJECT_DIR$/BrCs/JavaScript/AbstractHtml.js" />
-      <change beforePath="$PROJECT_DIR$/BrCs/JavaScript/MainScript.js" afterPath="$PROJECT_DIR$/BrCs/JavaScript/MainScript.js" />
-      <change beforePath="$PROJECT_DIR$/BrCs/Page/addpost.html" afterPath="$PROJECT_DIR$/BrCs/Page/addpost.html" />
-      <change beforePath="$PROJECT_DIR$/BrCs/Page/home.html" afterPath="$PROJECT_DIR$/BrCs/Page/home.html" />
-      <change beforePath="$PROJECT_DIR$/BrCs/Page/profilo.html" afterPath="$PROJECT_DIR$/BrCs/Page/profilo.html" />
-      <change beforePath="$PROJECT_DIR$/OnlyGrafica/SocialPawn_Home-Profilo-Add_finito/socialpawn-home.css" afterPath="$PROJECT_DIR$/OnlyGrafica/SocialPawn_Home-Profilo-Add_finito/socialpawn-home.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -119,7 +112,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -221,7 +214,7 @@
       <option name="presentableId" value="Default" />
       <updated>1527239520253</updated>
       <workItem from="1527239527197" duration="5845000" />
-      <workItem from="1527262245988" duration="3364000" />
+      <workItem from="1527262245988" duration="3386000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1527240097429</created>
@@ -286,14 +279,21 @@
       <option name="project" value="LOCAL" />
       <updated>1527246249607</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="MegaUpdate">
+      <created>1527265640087</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1527265640087</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9209000" />
+    <option name="totallyTimeSpent" value="9231000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -351,7 +351,8 @@
     <MESSAGE value="Update" />
     <MESSAGE value="Miglioramenti vari" />
     <MESSAGE value="Aggiunta funzione per i post profilo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggiunta funzione per i post profilo" />
+    <MESSAGE value="MegaUpdate" />
+    <option name="LAST_COMMIT_MESSAGE" value="MegaUpdate" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
