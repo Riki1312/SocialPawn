@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55c6d834-70cc-4d83-a60d-aba5ed54c6a9" name="Default" comment="">
+    <list default="true" id="55c6d834-70cc-4d83-a60d-aba5ed54c6a9" name="Default" comment="Sistemato lamda che non funziona">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/BrCs/JavaScript/MainScript.js" afterPath="$PROJECT_DIR$/BrCs/JavaScript/MainScript.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,21 +13,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BrCs/Page/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1196">
-              <caret line="52" column="24" lean-forward="false" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+            <state relative-caret-position="207">
+              <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainScript.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainScript.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BrCs/JavaScript/MainScript.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+            <state relative-caret-position="598">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -37,7 +36,7 @@
       <file leaf-file-name="AbstractHtml.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BrCs/JavaScript/AbstractHtml.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-506">
+            <state relative-caret-position="598">
               <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -188,7 +187,7 @@
       <workItem from="1526821497447" duration="4057000" />
       <workItem from="1526846021009" duration="1254000" />
       <workItem from="1526848710264" duration="1156000" />
-      <workItem from="1527108556984" duration="578000" />
+      <workItem from="1527108556984" duration="802000" />
     </task>
     <task id="LOCAL-00001" summary="Update id in html">
       <created>1527108828211</created>
@@ -197,11 +196,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527108828211</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Sistemato lamda che non funziona">
+      <created>1527109160576</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1527109160576</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7045000" />
+    <option name="totallyTimeSpent" value="7269000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -214,7 +220,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -272,7 +277,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update id in html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update id in html" />
+    <MESSAGE value="Sistemato lamda che non funziona" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sistemato lamda che non funziona" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -340,17 +346,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BrCs/Page/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1196">
-          <caret line="52" column="24" lean-forward="false" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BrCs/JavaScript/AbstractHtml.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-506">
+        <state relative-caret-position="598">
           <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -360,8 +358,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BrCs/JavaScript/MainScript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="26" column="4" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+        <state relative-caret-position="598">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BrCs/Page/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
           <folding />
         </state>
       </provider>
