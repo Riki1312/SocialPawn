@@ -64,7 +64,8 @@ p {
 
 .divpost {
   margin-top: 25px;
-  padding: 5px 0px 10px;
+  padding-top: 5px;
+  padding-bottom: 10px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
@@ -418,7 +419,6 @@ p {
 }
 
 .divimgprofilo {
-  position: relative;
   width: 70px;
   margin-top: -38px;
   padding: 60px 10px 15px;
@@ -526,7 +526,7 @@ p {
   margin-right: auto;
   margin-left: auto;
   padding-bottom: 10px;
-  float: none;
+  float: left;
   border-radius: 5px;
   background-color: #fff;
   box-shadow: 0 6px 24px -5px rgba(0, 0, 0, .5);
@@ -637,7 +637,7 @@ p {
   margin-top: 5px;
   margin-bottom: 0px;
   margin-left: 10px;
-  float: none;
+  float: left;
   color: #595959;
   font-size: 25px;
 }
@@ -646,7 +646,7 @@ p {
   margin-right: 10px;
   margin-bottom: 2px;
   margin-left: 10px;
-  float: none;
+  float: left;
   color: #595959;
 }
 
@@ -657,209 +657,154 @@ p {
   font-weight: 400;
 }
 
-.divbutton {
-  width: 80px;
-  margin-top: 12px;
-  margin-left: 10px;
-  padding: 8px 5px;
-  float: right;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
-  flex: 0 auto;
-  border-radius: 5px;
+.divfollowers {
+  position: static;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-bottom: 50px;
+  border-radius: 10px;
   background-color: #fff;
-  box-shadow: 0 11px 23px -8px rgba(0, 0, 0, .5);
+  box-shadow: 0 7px 21px -1px rgba(0, 0, 0, .5);
 }
 
-.paragraph-e {
+.typetext {
+  margin-left: 20px;
+  padding-top: 30px;
   color: #595959;
+  font-size: 32px;
+  font-weight: 400;
 }
 
-.newposttext {
-  border-style: none;
-}
-
-.textarea {
-  overflow: auto;
-  width: 100%;
-  max-width: 450px;
-  padding-left: 25px;
-  border-style: none;
-  color: #8d8d8d;
-}
-
-.newposticon {
-  display: block;
-  width: 20px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.divaddimg {
-  position: relative;
-  z-index: 500;
-  margin-top: 12px;
-  margin-left: 10px;
-  padding: 5px 25px 5px 5px;
-  float: right;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
-  flex: 0 auto;
-  border-radius: 5px;
+.divsearchbar {
+  height: 35px;
+  margin-top: 25px;
+  margin-right: 25px;
+  margin-left: 25px;
+  border-radius: 100px;
   background-color: #fff;
-  box-shadow: 0 11px 23px -8px rgba(0, 0, 0, .5);
+  box-shadow: 0 0 20px -3px rgba(0, 0, 0, .35);
 }
 
-.texttipopost {
-  margin: 8px 40px 14px 10px;
+.text-block-2 {
+  padding-top: 8px;
+  padding-left: 14px;
+  float: left;
+  color: #8d8d8d;
+  font-size: 13px;
+  font-weight: 400;
 }
 
-.divtpostbutton {
-  margin: 5px 10px;
-  border: 1px solid #8d8d8d;
-  border-radius: 3px;
+.imagesearchbutton {
+  height: 100%;
+  padding-top: 7px;
+  padding-right: 10px;
+  padding-bottom: 7px;
+  float: right;
+}
+
+.divbar {
+  margin-top: 15px;
 }
 
 .text-block-3 {
-  margin: 5px 10px;
   color: #8d8d8d;
-  font-size: 12px;
-}
-
-.textaddimg {
-  margin: 10px;
-}
-
-.divtipopost {
-  margin-top: 12px;
-  margin-left: 10px;
-  padding: 5px 30px 15px 5px;
-  float: right;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
-  flex: 0 auto;
-  border-radius: 5px;
-  background-color: #fff;
-  box-shadow: 0 11px 23px -8px rgba(0, 0, 0, .5);
-}
-
-.div-block-22 {
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  bottom: -16px;
-  z-index: 10;
-  display: block;
-  width: 50px;
-  height: 25px;
-  background-color: #f93759;
-}
-
-.divblockimg {
-  position: relative;
-  float: right;
-}
-
-.divimgopzioni {
-  position: relative;
-  left: 6px;
-  top: 55px;
-  z-index: 10;
-  display: block;
-  width: 80%;
-  height: 25px;
-  margin-right: auto;
-  margin-left: auto;
-  border-radius: 5px;
-  background-color: #fff;
-  box-shadow: 0 7px 25px -7px rgba(0, 0, 0, .5);
-}
-
-.text-block-4 {
-  display: block;
-  height: 20px;
-  font-size: 10px;
-}
-
-.texteliminaimg {
-  position: absolute;
-  left: 22px;
-  right: 0px;
-  bottom: -28px;
-  color: #595959;
-  font-size: 11px;
-  font-weight: 400;
-}
-
-.divbuttonpubblica {
-  height: 40px;
-  margin-top: 12px;
-  padding: 5px 20px;
-  float: right;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
-  flex: 0 auto;
-  border-radius: 50px;
-  background-color: #fff;
-  box-shadow: 0 11px 23px -8px rgba(0, 0, 0, .5);
-}
-
-.heading-4 {
-  display: block;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  color: #8d8d8d;
-  font-weight: 400;
+  font-size: 14px;
+  font-weight: 300;
   text-align: center;
 }
 
-.divpubblicacolor {
-  width: 120px;
-  height: 100%;
-  margin-top: 12px;
-  float: right;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
-  flex: 0 auto;
-}
-
-.imagearrowpubblica {
-  height: 60px;
-  max-width: 200%;
-  margin-top: -3px;
-  margin-left: -40px;
-}
-
-.div-block-23 {
-  margin-right: -24px;
-}
-
-.buttonfollow {
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  bottom: -30px;
+.followerbar {
   display: block;
-  width: 95%;
-  height: 20px;
+  width: 90%;
+  height: 2px;
   margin-right: auto;
   margin-left: auto;
-  border-radius: 3px;
+  background-color: #ddd;
+}
+
+.divresults {
+  margin-top: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.divprofilesmall {
+  width: 45%;
+  margin-top: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-bottom: 10px;
+  float: left;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 5px 20px -5px rgba(0, 0, 0, .3);
+}
+
+.imageoptions {
+  height: 20px;
+  margin: 6px 6px 5px 5px;
+  float: right;
+}
+
+.userimg {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.username {
+  text-align: center;
+}
+
+.textbio {
+  margin-right: 15px;
+  margin-left: 15px;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+}
+
+.divbuttonfollow {
+  display: block;
+  width: 60%;
+  height: 23px;
+  margin: 15px auto 12px;
+  border-radius: 4px;
   background-image: -webkit-linear-gradient(0deg, #009fdf, #d40f7d);
   background-image: linear-gradient(90deg, #009fdf, #d40f7d);
-  box-shadow: 0 5px 15px -4px rgba(0, 0, 0, .5);
 }
 
-.textfollow {
+.divbuttonfollow2 {
+  display: block;
+  width: 60%;
+  height: 23px;
+  margin: 15px auto 12px;
+  border-radius: 4px;
+  border: solid 1px #bababa;
+}
+
+.followtext {
+  padding-top: 2px;
   color: #fff;
-  font-size: 11px;
-  font-weight: 400;
+  font-size: 12px;
   text-align: center;
+}
+
+.followtext2 {
+  padding-top: 1px;
+  color: #606060;
+  font-size: 12px;
+  text-align: center;
+}
+
+.text-field-2 {
+  width: 50%;
+  height: 30px;
+  padding-top: 11px;
+  padding-left: 15px;
+  float: left;
+  border-style: none;
+  background-color: transparent;
+  color: #8d8d8d;
 }
 
 @media (max-width: 991px) {
@@ -868,7 +813,7 @@ p {
     margin-left: 12px;
   }
   .divdatiprofilo {
-    margin-top: 15px;
+    margin-top: 10px;
     margin-left: 25px;
     padding-right: 0%;
   }
@@ -878,8 +823,12 @@ p {
   .div-block-3-copy {
     width: 100%;
   }
-  .div-block-23 {
-    margin-top: 20px;
+  .divprofilesmall {
+    display: block;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
   }
 }
 
@@ -902,7 +851,7 @@ p {
     width: 70%;
   }
   .divdatiprofilo {
-    margin-top: 45px;
+    margin-top: 20px;
   }
   .postsmallcontainer {
     width: 78%;
@@ -910,8 +859,11 @@ p {
   .div-block-20 {
     display: block;
   }
-  .paragraph-e {
-    float: none;
+  .divprofilesmall {
+    width: 45%;
+    margin-right: 10px;
+    margin-left: 10px;
+    float: left;
   }
 }
 
@@ -951,14 +903,15 @@ p {
   .divbio {
     width: 60%;
   }
-  .divdatiprofilo {
-    margin-top: 20px;
-  }
   .postsmallcontainer {
     width: 67%;
     clear: none;
   }
-  .paragraph-copy {
+  .divprofilesmall {
+    display: block;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
     float: none;
   }
 }
