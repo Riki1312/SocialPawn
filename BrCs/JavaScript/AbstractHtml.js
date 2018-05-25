@@ -7,6 +7,7 @@
     uImg: -,
     cText: -,
     cImg: -,
+    nComments -,
     comments: [{ user: -, text: - }, { user: -, text: - }]
 }
  */
@@ -93,26 +94,26 @@ function AbstractHtmlPost(postContainer = "postcontainer") {
 function AbstractHtmlProfiloPost(postContainer = "divprofilo") {
 
     document.getElementsByClassName(postContainer)[0].innerHTML = '' +
-        '<div class="postsmall w-clearfix">' +
+        '<div class="postsmall w-clearfix" v-for="post in posts" :id="post.id">' +
         '<div class="postsmallinfo">' +
         '<div>' +
         '<img src="../Img/svg-home-profilo/sezione9-2.svg" class="image-14-coypy"/>' +
-        '<div class="text-blockr-copy">23 K</div>' +
+        '<div class="text-blockr-copy">{{ post.claps }}</div>' +
         '</div>' +
         '<div>' +
         '<img src="../Img/svg-home-profilo/sezione8.svg" class="image-14"/>' +
-        '<div class="text-block-copy">2 K</div>' +
+        '<div class="text-block-copy">{{ post.likes }}</div>' +
         '</div>' +
         '<div>' +
         '<img src="../Img/svg-home-profilo/sezione7.svg" class="image-14-copy"/>' +
-        '<div class="text-blockr">54</div>' +
+        '<div class="text-blockr">{{ post.nComments }}</div>' +
         '</div>' +
         '</div>' +
         '<div class="postsmallcontainer">' +
         '<div class="div-block-20 w-clearfix">' +
         '<div class="div-block-18 w-clearfix">' +
-        '<h2 class="nomeutente-copy">rikib</h2>' +
-        '<p class="paragraph-copy">Testo descrizione del post per scriverecose belle. #photo #space</p>' +
+        '<h2 class="nomeutente-copy">{{ post.uName }}</h2>' +
+        '<p class="paragraph-copy">{{ post.cText }}/p>' +
         '</div>' +
         '</div>' +
         '<div class="div-block-19 w-clearfix">' +
