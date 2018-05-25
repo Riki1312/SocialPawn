@@ -12,7 +12,7 @@
 
         <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif]-->
     </head>
-    <body onload="DataProfile()">
+    <body>
         <img src="../Img/svg-home-profilo/sezione1.svg" class="image-botton"/>
         <img src="../Img/svg-home-profilo/sezione2.svg" class="imagec-animazione"/>
         <div class="maincontainer">
@@ -21,33 +21,33 @@
                     <div class="divspacecolum"></div>
                 </div>
                 <div class="mainprofilecontainer w-col w-col-5">
-                    <div class="divprofilo">
+                    <div class="divprofilo" :id="id">
                         <div class="divicons w-clearfix">
                             <img src="../Img/svg-home-profilo/sezione4.svg" class="image-12"/>
                             <img src="../Img/svg-home-profilo/sezione15.svg" class="image-11"/>
                         </div>
                         <div class="divprofiloinfo w-clearfix">
                             <div class="divimgprofilo">
-                                <img src="../profiloesempio.png" class="image-13"/>
+                                <img :src="uImg" class="image-13"/>
                             </div>
                             <div class="divbio">
-                                <h2 class="nomeutente">rikib</h2>
-                                <p class="descrizione">Descrizione personale con testo a casoperchè adesso devo riempire spazio</p>
+                                <h2 class="nomeutente">{{ uName }}</h2>
+                                <p class="descrizione">{{ uBio }}</p>
                                 <div class="div-block-14"></div>
                             </div>
                         </div>
                         <div class="divdatiprofilo">
                             <div class="divdatoprofilo">
-                                <div class="textname">SEGUACI</div>
-                                <div class="textdatavalue" id="numFollower">23</div>
+                                <div class="textname">FOLLOWER</div>
+                                <div class="textdatavalue" id="numFollower">{{ nFollowers }}</div>
                             </div>
                             <div class="divdatoprofilo">
                                 <div class="textname">SEGUITI</div>
-                                <div class="textdatavalue" id="numFollowing">23</div>
+                                <div class="textdatavalue" id="numFollowing">{{ nFollowed }}</div>
                             </div>
                             <div class="divdatoprofilo">
                                 <div class="textname">POST</div>
-                                <div class="textdatavalue" id="numPosts">23</div>
+                                <div class="textdatavalue" id="numPosts">{{ nPosts }}</div>
                             </div>
                         </div>
 
@@ -87,6 +87,10 @@
         <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
         <script src="../JavaScript/AbstractHtml.js"></script>
         <script src="../JavaScript/MainScript.js"></script>
+
+        <script>
+            OnLoad_profilo();
+        </script>
 
         <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
     </body>

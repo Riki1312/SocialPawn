@@ -1,5 +1,6 @@
 /*
-{
+Post {
+    id: -,
     claps: -,
     likes: -,
     time: -,
@@ -9,6 +10,15 @@
     cImg: -,
     nComments -,
     comments: [{ user: -, text: - }, { user: -, text: - }]
+}
+Profilo {
+    id: -,
+    uName: -,
+    uImg: -,
+    uBio: -,
+    nPosts: -,
+    nFollowers: -,
+    nFollowed: -
 }
  */
 
@@ -93,7 +103,7 @@ function AbstractHtmlPost(postContainer = "postcontainer") {
 
 function AbstractHtmlProfiloPost(postContainer = "divprofilo") {
 
-    document.getElementsByClassName(postContainer)[0].innerHTML = '' +
+    document.getElementsByClassName(postContainer)[0].innerHTML += '' +
         '<div class="postsmall w-clearfix" v-for="post in posts" :id="post.id">' +
         '<div class="postsmallinfo">' +
         '<div>' +
@@ -141,8 +151,10 @@ function AbstractHtmlProfilo() {
     return new Vue({
         el: '.maincontainer',
         data: {
+            id: 1,
             uName: "Nome",
             uImg: "",
+            uBio: "Descrizione personale con testo a casoperchè adesso devo riempire spazio",
             nPosts: 30,
             nFollowers: 23,
             nFollowed: 46

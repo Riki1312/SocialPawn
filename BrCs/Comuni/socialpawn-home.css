@@ -419,6 +419,7 @@ p {
 
 .divimgprofilo {
   width: 70px;
+  min-height: 130px;
   margin-top: -38px;
   padding: 60px 10px 15px;
   float: left;

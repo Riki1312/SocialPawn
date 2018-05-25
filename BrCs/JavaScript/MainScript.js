@@ -1,26 +1,27 @@
 let Intervall = 1000;
 let NumPosts = 10;
-let HtmlPost;
 
-window.onload = () => {
+let HtmlPost_home;
+let HtmlPost_profilo;
+let Html_profilo;
 
-    HtmlPost = AbstractHtmlPost();
-
+function OnLoad_home() {
+    HtmlPost_home = AbstractHtmlPost();
     PreGetPosts(NumPosts);
     /*
     for (let i = 0; i < serverPosts.length; i++)
-        HtmlPost.posts.push(serverPosts[i]);
+        HtmlPost_home.posts.push(serverPosts[i]);
     */
+    const timer = setInterval(TimerTick_home, Intervall);
+}
 
-    var timer = setInterval(TimerTick, Intervall);
-};
+function TimerTick_home() {
+    console.log("Home: update posts");
 
-function TimerTick() {
-
-    var GetIdPosts = () => {
-        idPosts = [];
-        for (let i = 0; i < HtmlPost.length; i++)
-            idPosts.push(HtmlPost.posts[i].id);
+    let GetIdPosts = () => {
+        let idPosts = [];
+        for (let i = 0; i < HtmlPost_home.length; i++)
+            idPosts.push(HtmlPost_home.posts[i].id);
         return idPosts;
     };
     PreUpdatePosts(GetIdPosts());
@@ -37,38 +38,34 @@ function TimerTick() {
             if (serverPosts[i].likes == null)
                 serverPosts[i].likes = 0;
 
-            if (i < HtmlPost.leading)
+            if (i < HtmlPost_home.leading)
             {
                 //Se non rileva l'update vedi: https://vuejs.org/v2/guide/list.html#Caveats
                 //Vue.set(vm.items, indexOfItem, newValue)
 
-                HtmlPost.posts[i].claps = serverPosts[i].claps;
-                HtmlPost.posts[i].likes = serverPosts[i].likes;
-                HtmlPost.posts[i].time = serverPosts[i].time;
-                HtmlPost.posts[i].uName = serverPosts[i].uName;
-                HtmlPost.posts[i].uImg = serverPosts[i].uImg;
-                HtmlPost.posts[i].cText = serverPosts[i].cText;
-                HtmlPost.posts[i].cImg = serverPosts[i].cImg;
-                HtmlPost.posts[i].comments = serverPosts[i].comments;
+                HtmlPost_home.posts[i].claps = serverPosts[i].claps;
+                HtmlPost_home.posts[i].likes = serverPosts[i].likes;
+                HtmlPost_home.posts[i].time = serverPosts[i].time;
+                HtmlPost_home.posts[i].uName = serverPosts[i].uName;
+                HtmlPost_home.posts[i].uImg = serverPosts[i].uImg;
+                HtmlPost_home.posts[i].cText = serverPosts[i].cText;
+                HtmlPost_home.posts[i].cImg = serverPosts[i].cImg;
+                HtmlPost_home.posts[i].comments = serverPosts[i].comments;
             }
             else
-                HtmlPost.posts.push(serverPosts[i]);
+                HtmlPost_home.posts.push(serverPosts[i]);
         }
     }
 }
 
-//INFO//
-/*
-{
-    claps: -,
-    likes: -,
-    time: -,
-    uName: -,
-    uImg: -,
-    cText: -,
-    cImg: -,
-    comments: [{ user: -, text: - }, { user: -, text: - }]
-}
- */
+function OnLoad_profilo() {
+    Html_profilo = AbstractHtmlProfilo();
 
-//TEST//
+    HtmlPost_profilo = AbstractHtmlProfiloPost();
+    //PreGetPosts(NumPosts);
+    const timer = setInterval(TimerTick_profilo, Intervall);
+}
+
+function TimerTick_profilo() {
+    console.log("Profilo: update posts");
+}
