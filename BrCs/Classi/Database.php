@@ -17,7 +17,7 @@ class Database
     function __construct()
     {
         //$this->connessione = new mysqli("localhost","id5754313_brcs", "123Riccardobrero", "id5754313_bdsocialpawn");
-        $this->connessione = new mysqli("localhost", "root", "", "id5754313_brcs");
+        $this->connessione = new mysqli("localhost", "root", "", "id5754313_bdsocialpawn");
         if($this->TestConnessione()==false)
             die("Errore nella connessione al Database");
 

@@ -61,46 +61,63 @@ class Components
         //Attualmente possiedo tutti gli id dei post da mostare nella home
         $record = $this->database->Query($sql);
 
-        while($idPs = $record->fetch_assoc()){
-            //Query per ottenre i dati dell'utente
-            $sql = "SELECT users.nickName, users.srcPhoto FROM users WHERE users.idUt = (SELECT idUt FROM posts WHERE idPs = ".$idPs['idPs'].")";
-            $result = $this->database->Query($sql);
-            $data = $result->fetch_assoc();
-            //Inizio riempimento dati
+        if($record->num_rows>0){
+            while($idPs = $record->fetch_assoc()){
+                //Query per ottenre i dati dell'utente
+                $sql = "SELECT users.nickName, users.srcPhoto FROM users WHERE users.idUt = (SELECT idUt FROM posts WHERE idPs = ".$idPs['idPs'].")";
+                $result = $this->database->Query($sql);
+                $data = $result->fetch_assoc();
+                //Inizio riempimento dati
+                $obj =  (object)array(
+                    'id' => $idPs['idPs'],
+                    'claps' => "",
+                    'likes' => "",
+                    'uName' => $data['nickName'],
+                    'uImg' => $data['srcPhoto'],
+                    'comments' => array(),
+                    //Da fare
+                    'time' => "",
+                    'cText' => "pippo",
+                    'cImg'=> "../postEsempio.png"
+                );
+                //Ottiene like e claps
+                $sql = "SELECT SUM(likes.claps) AS claps, SUM(likes.likes) AS likes FROM likes WHERE likes.idPs = ".$idPs['idPs'];
+                $result = $this->database->Query($sql);
+                $data = $result->fetch_assoc();
+                $obj->claps = $data['claps'];
+                $obj->likes = $data['likes'];
+
+                $sql = "SELECT srcFile, txt FROM posts WHERE idPs = ".$idPs['idPs'];
+                $result = $this->database->Query($sql);
+                $data = $result->fetch_assoc();
+                $obj->cImg = $data['srcFile'];
+                $obj->cText = $data['txt'];
+
+                //Ottiene tutti i commenti
+                $sql = "SELECT users.nickName, comments.txt FROM comments, users WHERE comments.idPs = ".$idPs['idPs']." AND users.idUt = comments.idUt ORDER BY comments.date ASC";
+                $result = $this->database->Query($sql);
+                while ($data = $result->fetch_assoc()){
+                    array_push($obj->comments, (object)array('user'=> $data['nickName'], 'text'=> $data['txt']));
+                }
+
+
+                array_push($arrayPosts, $obj);
+            }
+        }else{
             $obj =  (object)array(
-                'id' => $idPs['idPs'],
-                'claps' => "",
-                'likes' => "",
+                'id' => 0,
+                'claps' => "0",
+                'likes' => "0",
                 'time' => "",
-                'uName' => $data['nickName'],
-                'uImg' => $data['srcPhoto'],
+                'uName' => "AVA",
+                'uImg' => "	../Uplaod - IMG/Users/user.svg",
                 //Cambiare
-                'cText' => "pippo",
-                'cImg'=> "../postEsempio.png",
+                'cText' => "Ciao, io sono AVA e questo è il primo post che tu vedi! :)",
+                'cImg'=> "",
                 //
                 'comments' => array()
                 //(object)array(user=> "", text=> "")
             );
-            //Ottiene like e claps
-            $sql = "SELECT SUM(likes.claps) AS claps, SUM(likes.likes) AS likes FROM likes WHERE likes.idPs = ".$idPs['idPs'];
-            $result = $this->database->Query($sql);
-            $data = $result->fetch_assoc();
-            $obj->claps = $data['claps'];
-            $obj->likes = $data['likes'];
-
-            $sql = "SELECT SUM(likes.claps) AS claps, SUM(likes.likes) AS likes FROM likes WHERE likes.idPs = ".$idPs['idPs'];
-            $result = $this->database->Query($sql);
-            $data = $result->fetch_assoc();
-            //$obj->cText = ;
-
-            //Ottiene tutti i commenti
-            $sql = "SELECT users.nickName, comments.txt FROM comments, users WHERE comments.idPs = ".$idPs['idPs']." AND users.idUt = comments.idUt ORDER BY comments.date ASC";
-            $result = $this->database->Query($sql);
-            while ($data = $result->fetch_assoc()){
-                array_push($obj->comments, (object)array('user'=> $data['nickName'], 'text'=> $data['txt']));
-            }
-
-
             array_push($arrayPosts, $obj);
         }
 
@@ -183,6 +200,22 @@ class Components
         $this->database->Query($sql);
     }
 
+    public function GetNumFile(){
+        $record = $this->database->Query("SELECT value FROM enum WHERE  idEn = 1");
+        return $record->fetch_assoc()["value"];
+    }
+    public function InsertPost($idUser, $typePost, $src, $txt){
+        $sql = "INSERT INTO `posts` (`idPs`, `idUt`, `idPt`, `srcFile`, `txt`, `date`) VALUES (NULL, $idUser, $typePost, '$src', '$txt', NOW());";
 
+        echo($sql."\n");
+
+        $this->database->Query($sql);
+
+        $sql = "SELECT value FROM enum WHERE idEn = 1";
+        $num = $this->database->Query($sql)->fetch_assoc()["value"];
+        $num = $num +1;
+        $sql = "UPDATE `enum` SET `value` = $num WHERE `enum`.`idEn` = 1";
+        $this->database->Query($sql);
+    }
 
 }
