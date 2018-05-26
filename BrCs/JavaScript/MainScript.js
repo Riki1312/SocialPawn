@@ -68,4 +68,19 @@ function OnLoad_profilo() {
 
 function TimerTick_profilo() {
     console.log("Profilo: update posts");
+
+    PreDataProfile();
+
+    if (dataProfile != null) {
+
+        Html_profilo.id = dataProfile.id;
+        Html_profilo.uName = dataProfile.uName;
+        Html_profilo.uImg = dataProfile.uImg;
+        Html_profilo.uBio = dataProfile.uBio;
+        Html_profilo.nPosts = dataProfile.nPosts;
+        Html_profilo.nFollowers = dataProfile.nFollowers;
+        Html_profilo.nFollowed = dataProfile.nFollowed;
+
+        dataProfile = null;
+    }
 }

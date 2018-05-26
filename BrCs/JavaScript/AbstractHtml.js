@@ -144,16 +144,17 @@ function AbstractHtmlProfiloPost(postContainer = "divprofilo") {
 
 function AbstractHtmlProfilo() {
 
-    return new Vue({
+    let profile =  new Vue({
         el: '.maincontainer',
         data: {
             id: 1,
             uName: "Nome",
             uImg: "",
-            uBio: "Descrizione personale con testo a casoperchè adesso devo riempire spazio",
-            nPosts: 30,
-            nFollowers: 23,
-            nFollowed: 46
+            uBio: "Bio",
+            nPosts: 0,
+            nFollowers: 0,
+            nFollowed: 0
         }
     });
+    return profile;
 }
