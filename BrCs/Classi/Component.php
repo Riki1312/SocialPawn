@@ -171,7 +171,16 @@ class Components
 
         return $arrayPosts;
     }
-
+    /*
+    Profilo {
+    id: -,
+    uName: -,
+    uImg: -,
+    uBio: -,
+    nPosts: -,
+    nFollowers: -,
+    nFollowers: -
+    */
     public function UpdateProfile($nickNameTest){
 
         //Numero delle persone che seguono l'utenete
@@ -182,7 +191,9 @@ class Components
         $record = $this->database->Query("SELECT COUNT(*) AS posts FROM posts WHERE idUt = (SELECT idUt FROM users WHERE nickName = '".$nickNameTest."')");
         $numPosts = $record->fetch_assoc()["posts"];
 
-        $obj = (object)array("follower"=>$numFollower, "following"=>$numFollowing, "posts"=>$numPosts);
+        $record = $this->database->Query("SELECT `idUt`, `nickName`, `srcPhoto`, `bio` FROM `users` WHERE idUt = ".$this->GetIdUser($nickNameTest));
+        $data = $record->fetch_assoc();
+        $obj = (object)array("id""nFollowers"=>$numFollower, "nFollowers"=>$numFollowing, "nPosts"=>$numPosts);
 
         $this->data = $obj;
     }
