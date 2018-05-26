@@ -13,7 +13,6 @@ ini_set('display_errors', 1);
 
 $message = "";
 $data = "";
-$dataProfile = "";
 
 session_start();
 
@@ -30,18 +29,12 @@ if(isset($_REQUEST["action"]) && isset($_REQUEST["data"])){
         case 'profileUpdate':
             UpdateProfile();
             break;
-
         case 'getPosts':
             GetPosts();
             break;
         case 'updatePosts':
             UpdatePosts();
             break;
-
-        case "addLikePost":
-            InsertLikePost();
-            break;
-
 
         default:
             $message = '999';
@@ -81,15 +74,7 @@ function UpdateProfile(){
 
     $User->UpdateProfile($_SESSION['nickName']);
 
-    $GLOBALS['dataProfile'] = $User->data;
-}
-
-function InsertLikePost(){
-    $obj = json_decode($_REQUEST["data"], true);
-
-    $User = new Components();
-    $User->InsertLike(obj.idPosts, $_SESSION['idUser'], obj.like, obj.claps);
-    $GLOBALS['message'] = $User->message;
+    $GLOBALS['data'] = $User->data;
 }
 
 function GetPosts(){
@@ -111,9 +96,6 @@ function UpdatePosts(){
 
 /* --- */
 function Answer(){
-    if($GLOBALS['dataProfile'] == "")
-        $obj = json_encode(array('action'=>$_REQUEST["action"],'message'=>$GLOBALS['message'], 'data'=> $GLOBALS['data']));
-    else
-        $obj = json_encode(array('action'=>$_REQUEST["action"],'message'=>$GLOBALS['message'], 'dataProfile'=> $GLOBALS['dataProfile']));
+    $obj = json_encode(array('action'=>$_REQUEST["action"],'message'=>$GLOBALS['message'], 'data'=> $GLOBALS['data']));
     echo($obj);
 }

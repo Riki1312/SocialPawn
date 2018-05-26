@@ -2,7 +2,6 @@
 
 
 var data = null;
-var dataProfile = null;
 
 function PreLogin() {
     var obj = new Object({
@@ -42,16 +41,6 @@ function PreUpdatePosts(idPosts){
     AjaxSend("updatePosts", obj);
 }
 
-function PreInsertLikeClap(idPosts, like, claps) {
-    var obj = new Object({
-        "idPosts": idPosts,
-        "like": like,
-        "claps": claps
-    });
-    //idPosts
-    AjaxSend("addLikePost", obj);
-}
-
 function AjaxSend(action, obj) {
     var richiesta = new XMLHttpRequest();
 
@@ -77,13 +66,6 @@ function AjaxSend(action, obj) {
                     break;
                 case "updatePosts":
                     GetPosts(obj);
-                    break;
-                case "myProfile":
-                    MyProfile(obj);
-                    break;
-                case "addLikePost":
-                    //Aggiornare post
-
                     break;
 
             }
@@ -117,11 +99,12 @@ function Signin(obj) {
 
 }
 function DataProfile(obj) {
-    dataProfile = obj.dataProfile;
+    obj = obj.data;
+
+    document.getElementById("numFollower").textContent = obj.follower;
+    document.getElementById("numFollowing").textContent = obj.following;
+    document.getElementById("numPosts").textContent = obj.posts;
 }
 function GetPosts(obj) {
     data = JSON.parse(obj.data);
-}
-function MyProfile(obj) {
-    dataProfile = JSON.parse(obj.dataProfile);
 }

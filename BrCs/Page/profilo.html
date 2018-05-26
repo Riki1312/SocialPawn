@@ -21,33 +21,33 @@
                     <div class="divspacecolum"></div>
                 </div>
                 <div class="mainprofilecontainer w-col w-col-5">
-                    <div class="divprofilo" :id="id">
+                    <div class="divprofilo" :id="profile.id">
                         <div class="divicons w-clearfix">
                             <img src="../Img/svg-home-profilo/sezione4.svg" class="image-12"/>
                             <img src="../Img/svg-home-profilo/sezione15.svg" class="image-11"/>
                         </div>
                         <div class="divprofiloinfo w-clearfix">
                             <div class="divimgprofilo">
-                                <img :src="uImg" class="image-13"/>
+                                <img :src="profile.uImg" class="image-13"/>
                             </div>
                             <div class="divbio">
-                                <h2 class="nomeutente">{{ uName }}</h2>
-                                <p class="descrizione">{{ uBio }}</p>
+                                <h2 class="nomeutente">{{ profile.uName }}</h2>
+                                <p class="descrizione">{{ profile.uBio }}</p>
                                 <div class="div-block-14"></div>
                             </div>
                         </div>
                         <div class="divdatiprofilo">
                             <div class="divdatoprofilo">
                                 <div class="textname">FOLLOWER</div>
-                                <div class="textdatavalue" id="numFollower">{{ nFollowers }}</div>
+                                <div class="textdatavalue" id="numFollower">{{ profile.nFollowers }}</div>
                             </div>
                             <div class="divdatoprofilo">
                                 <div class="textname">SEGUITI</div>
-                                <div class="textdatavalue" id="numFollowing">{{ nFollowed }}</div>
+                                <div class="textdatavalue" id="numFollowing">{{ profile.nFollowed }}</div>
                             </div>
                             <div class="divdatoprofilo">
                                 <div class="textname">POST</div>
-                                <div class="textdatavalue" id="numPosts">{{ nPosts }}</div>
+                                <div class="textdatavalue" id="numPosts">{{ profile.nPosts }}</div>
                             </div>
                         </div>
 
@@ -57,13 +57,13 @@
                 <div class="menucontainer w-col w-col-6">
                     <div class="navbar w-clearfix">
                         <div class="divmenuicons">
-                            <img src="../Img/svg-home-profilo/sezione10.svg" class="imagehome"/>
+                            <a href="home.html"><img src="../Img/svg-home-profilo/sezione10.svg" class="imagehome"/></a>
                             <img src="../Img/svg-home-profilo/sezione13.svg" class="imagedivisore"/>
-                            <img src="../Img/svg-home-profilo/sezione14.svg" class="imageadd"/>
+                            <a href="search.html"><img src="../Img/svg-home-profilo/sezione14.svg" class="imageadd"/></a>
                             <img src="../Img/svg-home-profilo/sezione13.svg" class="imagedivisore"/>
-                            <img src="../Img/svg-home-profilo/sezione11.svg" class="imageadd"/>
+                            <a href="addpost.html"><img src="../Img/svg-home-profilo/sezione11.svg" class="imageadd"/></a>
                             <img src="../Img/svg-home-profilo/sezione13.svg" class="imagedivisore"/>
-                            <img src="../Img/svg-home-profilo/sezione12.svg" class="imageprofilopage"/>
+                            <a href="profilo.html"><img src="../Img/svg-home-profilo/sezione12.svg" class="imageprofilopage"/></a>
                         </div>
                         <div class="divmenulogo">
                             <img src="../Img/svg-home-profilo/Logo.svg" class="imagelogo"/>
