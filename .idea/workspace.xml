@@ -103,15 +103,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ajax.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BrCs/Page/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="892">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ajax.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BrCs/Ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+            <state relative-caret-position="459">
+              <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
               <folding>
+                <element signature="e#221#775#0#PHP" />
+                <element signature="e#746#775#0#PHP" />
                 <element signature="n#Login#0;n#!!top" />
                 <element signature="n#InsertUser#0;n#!!top" />
                 <element signature="n#UpdateProfile#0;n#!!top" />
+                <element signature="n#InsertLikePost#0;n#!!top" />
+                <element signature="n#GetPosts#0;n#!!top" />
                 <element signature="n#UpdatePosts#0;n#!!top" />
                 <element signature="n#Answer#0;n#!!top" />
               </folding>
@@ -168,7 +181,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -242,7 +255,7 @@
       <workItem from="1527321688076" duration="817000" />
       <workItem from="1527323053898" duration="896000" />
       <workItem from="1527326403329" duration="507000" />
-      <workItem from="1527327573916" duration="4493000" />
+      <workItem from="1527327573916" duration="4881000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1527240097429</created>
@@ -325,10 +338,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25576000" />
+    <option name="totallyTimeSpent" value="25964000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947916" />
@@ -650,13 +663,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OnlyGrafica/SocialPawn_Home-Profilo-Add_finito/profilo.html" />
     <entry file="file://$PROJECT_DIR$/OnlyGrafica/SocialPawn_Home-Profilo-Add_finito/socialpawn-home.css" />
-    <entry file="file://$PROJECT_DIR$/BrCs/Page/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BrCs/Classi/Database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
@@ -725,6 +731,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BrCs/Ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+          <folding>
+            <element signature="e#221#775#0#PHP" />
+            <element signature="e#746#775#0#PHP" />
+            <element signature="n#Login#0;n#!!top" />
+            <element signature="n#InsertUser#0;n#!!top" />
+            <element signature="n#UpdateProfile#0;n#!!top" />
+            <element signature="n#InsertLikePost#0;n#!!top" />
+            <element signature="n#GetPosts#0;n#!!top" />
+            <element signature="n#UpdatePosts#0;n#!!top" />
+            <element signature="n#Answer#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BrCs/JavaScript/Ajax.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-18">
@@ -742,17 +766,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BrCs/Ajax.php">
+    <entry file="file://$PROJECT_DIR$/BrCs/Page/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
-          <folding>
-            <element signature="n#Login#0;n#!!top" />
-            <element signature="n#InsertUser#0;n#!!top" />
-            <element signature="n#UpdateProfile#0;n#!!top" />
-            <element signature="n#UpdatePosts#0;n#!!top" />
-            <element signature="n#Answer#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="892">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
         </state>
       </provider>
     </entry>
