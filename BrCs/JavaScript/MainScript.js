@@ -69,17 +69,26 @@ function OnLoad_profilo() {
 function TimerTick_profilo() {
     console.log("Profilo: update posts");
 
-    PreDataProfile();
+    //PreMyProfile();
+    dataProfile = {
+        id: 1,
+        uName: "rikib",
+        uImg: "",
+        uBio: "Ciaooooo funziona",
+        nPosts: 23,
+        nFollowers: 12,
+        nFollowed: 32
+    };
 
     if (dataProfile != null) {
 
-        Html_profilo.id = dataProfile.id;
-        Html_profilo.uName = dataProfile.uName;
-        Html_profilo.uImg = dataProfile.uImg;
-        Html_profilo.uBio = dataProfile.uBio;
-        Html_profilo.nPosts = dataProfile.nPosts;
-        Html_profilo.nFollowers = dataProfile.nFollowers;
-        Html_profilo.nFollowed = dataProfile.nFollowed;
+        Html_profilo.profile.id = dataProfile.id;
+        Html_profilo.profile.uName = dataProfile.uName;
+        Html_profilo.profile.uImg = dataProfile.uImg;
+        Html_profilo.profile.uBio = dataProfile.uBio;
+        Html_profilo.profile.nPosts = dataProfile.nPosts;
+        Html_profilo.profile.nFollowers = dataProfile.nFollowers;
+        Html_profilo.profile.nFollowed = dataProfile.nFollowed;
 
         dataProfile = null;
     }
