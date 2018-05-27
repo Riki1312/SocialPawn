@@ -41,6 +41,15 @@ function PreUpdatePosts(idPosts){
     //idPosts
     AjaxSend("updatePosts", obj);
 }
+function PreInsertLikeClaps(idPosts, like, claps) {
+    var obj = new Object({
+        "idPosts": idPosts,
+        "like" : like,
+        "claps" : claps
+    });
+
+    AjaxSend("addLikePost", obj);
+}
 
 function AjaxSend(action, obj) {
     var richiesta = new XMLHttpRequest();
@@ -68,7 +77,11 @@ function AjaxSend(action, obj) {
                 case "updatePosts":
                     GetPosts(obj);
                     break;
-
+                case "addLikePost":
+                    /*
+                        Non eseguo nulla per la presenza del timer sui post
+                     */
+                    break;
             }
         }
     }
