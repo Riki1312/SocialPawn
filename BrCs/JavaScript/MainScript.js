@@ -8,9 +8,9 @@ let Html_profilo;
 function OnLoad_home() {
     HtmlPost_home = AbstractHtmlPost();
 
-    HtmlPost_home.ClickCalps = ClikClaps;
-    HtmlPost_home.ClickLike = ClikLike;
-    HtmlPost_home.ClickComment = ClikComment;
+    HtmlPost_home.ClickCalps = ClickClaps;
+    HtmlPost_home.ClickLike = ClickLike;
+    HtmlPost_home.ClickComment = ClickComment;
 
     PreGetPosts(NumPosts);
     /*
@@ -95,14 +95,14 @@ function TimerTick_profilo() {
     }
 }
 
-function ClikClaps(idPost) {
-    console.log("clik claps idPost: " + idPost);
+function ClickClaps(idPost) {
+    console.log("click claps idPost: " + idPost);
     PreInsertLikeClaps(idPost, 0, 1);
 }
-function ClikLike(idPost) {
-    console.log("clik like: " + idPost);
+function ClickLike(idPost) {
+    console.log("click like idPost: " + idPost);
     PreInsertLikeClaps(idPost, 1, 0);
 }
-function ClikComment(idPost) {
-    console.log("clik comment: " + idPost);
+function ClickComment(idPost) {
+    console.log("click comment idPost: " + idPost);
 }
