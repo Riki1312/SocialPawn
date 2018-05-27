@@ -20,7 +20,7 @@
                 <div class="spacecolum w-col w-col-1">
                     <div class="divspacecolum"></div>
                 </div>
-                <div class="mainprofilecontainer w-col w-col-5">
+                <div class="mainprofilecontainer w-col w-col-5" v-for="values in profile">
                     <div class="divprofilo" :id="profile.id">
                         <div class="divicons w-clearfix">
                             <img src="../Img/svg-home-profilo/sezione4.svg" class="image-12"/>
@@ -31,23 +31,23 @@
                                 <img :src="profile.uImg" class="image-13"/>
                             </div>
                             <div class="divbio">
-                                <h2 class="nomeutente">{{ profile.uName }}</h2>
-                                <p class="descrizione">{{ profile.uBio }}</p>
+                                <h2 class="nomeutente">{{ values.uName }}</h2>
+                                <p class="descrizione">{{ values.uBio }}</p>
                                 <div class="div-block-14"></div>
                             </div>
                         </div>
                         <div class="divdatiprofilo">
                             <div class="divdatoprofilo">
                                 <div class="textname">FOLLOWER</div>
-                                <div class="textdatavalue" id="numFollower">{{ profile.nFollowers }}</div>
+                                <div class="textdatavalue" id="numFollower">{{ values.nFollowers }}</div>
                             </div>
                             <div class="divdatoprofilo">
                                 <div class="textname">SEGUITI</div>
-                                <div class="textdatavalue" id="numFollowing">{{ profile.nFollowed }}</div>
+                                <div class="textdatavalue" id="numFollowing">{{ values.nFollowed }}</div>
                             </div>
                             <div class="divdatoprofilo">
                                 <div class="textname">POST</div>
-                                <div class="textdatavalue" id="numPosts">{{ profile.nPosts }}</div>
+                                <div class="textdatavalue" id="numPosts">{{ values.nPosts }}</div>
                             </div>
                         </div>
 

@@ -147,7 +147,7 @@ function AbstractHtmlProfilo() {
     let profile = new Vue({
         el: '.maincontainer',
         data: {
-            profile: { id: 1, uName: "rikib", uImg: "", uBio: "Ciaooooo funziona", nPosts: 23, nFollowers: 12, nFollowed: 32 }
+            profile: []
         }
     });
     return profile;
