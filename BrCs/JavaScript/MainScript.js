@@ -69,16 +69,7 @@ function OnLoad_profilo() {
 function TimerTick_profilo() {
     console.log("Profilo: update posts");
 
-    //PreMyProfile();
-    dataProfile = {
-        id: 1,
-        uName: "rikib",
-        uImg: "",
-        uBio: "Ciaooooo funziona",
-        nPosts: 23,
-        nFollowers: 12,
-        nFollowed: 32
-    };
+    PreDataProfile();
 
     if (dataProfile != null) {
 
