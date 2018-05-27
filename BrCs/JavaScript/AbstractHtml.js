@@ -101,7 +101,7 @@ function AbstractHtmlPost(postContainer = "postcontainer") {
                 console.log("click post like idPost: " + idPost);
             },
             ClickComment: function (idPost) {
-                console.log("click comment like idPost: " + idPost);
+                console.log("click like idPost: " + idPost);
             }
         }
     });

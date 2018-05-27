@@ -9,8 +9,8 @@ function OnLoad_home() {
     HtmlPost_home = AbstractHtmlPost();
 
     HtmlPost_home.ClickCalps = ClikClaps;
-    HtmlPost_home.ClikLike = ClikLike;
-    HtmlPost_home.ClikComment = ClikComment;
+    HtmlPost_home.ClickLike = ClikLike;
+    HtmlPost_home.ClickComment = ClikComment;
 
     PreGetPosts(NumPosts);
     /*
