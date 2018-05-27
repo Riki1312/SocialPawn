@@ -23,13 +23,10 @@ function OnLoad_home() {
 function TimerTick_home() {
     console.log("Home: update posts");
 
-    let GetIdPosts = () => {
-        let idPosts = [];
-        for (let i = 0; i < HtmlPost_home.posts.length; i++)
-            idPosts.push(HtmlPost_home.posts[i].id);
-        return idPosts;
-    };
-    PreUpdatePosts(GetIdPosts());
+    let idPosts = [];
+    for (let i = 0; i < HtmlPost_home.posts.length; i++)
+        idPosts.push(HtmlPost_home.posts[i].id);
+    PreUpdatePosts(idPosts);
 
     if (data!=null) {
         let serverPosts = data;
