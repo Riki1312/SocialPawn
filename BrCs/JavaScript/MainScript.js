@@ -8,9 +8,9 @@ let Html_profilo;
 function OnLoad_home() {
     HtmlPost_home = AbstractHtmlPost();
 
-    Html_profilo.ClickCalps = ClikClaps;
-    Html_profilo.ClikLike = ClikLike;
-    Html_profilo.ClikComment = ClikComment;
+    HtmlPost_home.ClickCalps = ClikClaps;
+    HtmlPost_home.ClikLike = ClikLike;
+    HtmlPost_home.ClikComment = ClikComment;
 
     PreGetPosts(NumPosts);
     /*
