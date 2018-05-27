@@ -92,9 +92,11 @@ function TimerTick_profilo() {
 
 function ClikClaps(idPost) {
     console.log("clik claps idPost: " + idPost);
+    PreInsertLikeClaps(idPost, 0, 1);
 }
 function ClikLike(idPost) {
     console.log("clik like: " + idPost);
+    PreInsertLikeClaps(idPost, 1, 0);
 }
 function ClikComment(idPost) {
     console.log("clik comment: " + idPost);
