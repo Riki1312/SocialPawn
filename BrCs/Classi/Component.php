@@ -183,7 +183,7 @@ class Components
 
         $record = $this->database->Query("SELECT `idUt`, `nickName`, `srcPhoto`, `bio` FROM `users` WHERE idUt = ".$this->GetIdUser($nickNameTest));
         $data = $record->fetch_assoc();
-        $obj = (object)array("id"=>$data["idUt"], "uName"=>$data["nickName"], "uImg"=>$data["srcPhoto"], "uBio"=>$data["bio"], "nFollowers"=>$numFollower, "nFollowers"=>$numFollowing, "nPosts"=>$numPosts);
+        $obj = (object)array("id"=>$data["idUt"], "uName"=>$data["nickName"], "uImg"=>$data["srcPhoto"], "uBio"=>$data["bio"], "nFollowers"=>$numFollower, "nFollowed"=>$numFollowing, "nPosts"=>$numPosts);
 
         $this->data = $obj;
     }
