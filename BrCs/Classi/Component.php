@@ -171,16 +171,6 @@ class Components
 
         return $arrayPosts;
     }
-    /*
-    Profilo {
-    id: -,
-    uName: -,
-    uImg: -,
-    uBio: -,
-    nPosts: -,
-    nFollowers: -,
-    nFollowers: -
-    */
     public function UpdateProfile($nickNameTest){
 
         //Numero delle persone che seguono l'utenete
@@ -198,6 +188,30 @@ class Components
         $this->data = $obj;
     }
 
+    public function InsertLike($idPost, $idUser, $like, $claps){
+        $sql = "SELECT COUNT(*) AS exist FROM likes WHERE idUt = $idUser && idPs = $idPost";
+
+        $record = $this->database->Query($sql);
+        $record = $record->fetch_assoc();
+
+        if($record["exist"] == 1){
+            $sql = "SELECT`claps` FROM `likes` WHERE idUt = $idUser && idPs = $idPost";
+            $record = $this->database->Query($sql);
+            $record = $record->fetch_assoc();
+            $claps = $claps+ $record["claps"];
+            $sql = "UPDATE `likes` SET `claps`= $claps,`likes`= $like WHERE idPs = $idPost && idUt = $idUser";
+            $this->database->Query($sql);
+        }
+        else{
+            $sql = "INSERT INTO `likes`(`idPs`, `idUt`, `claps`, `likes`) VALUES ($idPost,$idUser,$claps,$like)";
+            $this->database->Query($sql);
+        }
+    }
+    public function InsertComment($idPost, $idUser, $txt){
+        $sql = "INSERT INTO `comments`(`idPs`, `idUt`, `txt`, `date`) VALUES ($idPost,$idUser,$txt, NOW())";
+        $this->database->Query($sql);
+    }
+
     public function GetIdUser($nickNameTest){
         $record = $this->database->Query("SELECT idUt FROM users WHERE nickName = '".$nickNameTest."'");
         return $record->fetch_assoc()['idUt'];
@@ -210,7 +224,6 @@ class Components
         $sql = "UPDATE users SET nickName = '".$nickName."' WHERE idUt = ".$this->idUt;
         $this->database->Query($sql);
     }
-
     public function GetNumFile(){
         $record = $this->database->Query("SELECT value FROM enum WHERE  idEn = 1");
         return $record->fetch_assoc()["value"];
