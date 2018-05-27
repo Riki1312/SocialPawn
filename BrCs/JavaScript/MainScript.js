@@ -90,12 +90,12 @@ function TimerTick_profilo() {
     }
 }
 
-function ClikClaps() {
-    console.log("clik claps");
+function ClikClaps(idPost) {
+    console.log("clik claps idPost: " + idPost);
 }
-function ClikLike() {
-    console.log("clik like");
+function ClikLike(idPost) {
+    console.log("clik like: " + idPost);
 }
-function ClikComment() {
-    console.log("clik comment");
+function ClikComment(idPost) {
+    console.log("clik comment: " + idPost);
 }
