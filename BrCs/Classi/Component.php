@@ -126,10 +126,10 @@ class Components
     public function UpdatePost($idPost){
         $arrayPosts = [];
 
-
         for($count = 0; $count<count($idPost); $count++){
             //Query per ottenre i dati dell'utente
             $sql = "SELECT users.nickName, users.srcPhoto FROM users WHERE users.idUt = (SELECT idUt FROM posts WHERE idPs = ".$idPost[$count].")";
+            
             $result = $this->database->Query($sql);
             $data = $result->fetch_assoc();
             //Inizio riempimento dati
