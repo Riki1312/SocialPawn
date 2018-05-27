@@ -89,3 +89,13 @@ function TimerTick_profilo() {
         dataProfile = null;
     }
 }
+
+function ClikClaps() {
+    console.log("clik claps");
+}
+function ClikLike() {
+    console.log("clik like");
+}
+function ClikComment() {
+    console.log("clik comment");
+}
