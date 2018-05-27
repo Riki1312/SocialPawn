@@ -25,7 +25,7 @@ function TimerTick_home() {
 
     let GetIdPosts = () => {
         let idPosts = [];
-        for (let i = 0; i < HtmlPost_home.length; i++)
+        for (let i = 0; i < HtmlPost_home.posts.length; i++)
             idPosts.push(HtmlPost_home.posts[i].id);
         return idPosts;
     };
@@ -43,7 +43,7 @@ function TimerTick_home() {
             if (serverPosts[i].likes == null)
                 serverPosts[i].likes = 0;
 
-            if (i < HtmlPost_home.leading)
+            if (i < HtmlPost_home.posts.length)
             {
                 //Se non rileva l'update vedi: https://vuejs.org/v2/guide/list.html#Caveats
                 //Vue.set(vm.items, indexOfItem, newValue)
