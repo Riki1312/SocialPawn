@@ -75,8 +75,6 @@ function InsertUser(){
     $GLOBALS['message'] = $User->message;
 }
 function UpdateProfile(){
-    //$obj = json_decode($_REQUEST["data"], true);
-
     $User = new Components();
 
     $User->UpdateProfile($_SESSION['nickName']);
@@ -88,7 +86,7 @@ function InsertLikePost(){
     $obj = json_decode($_REQUEST["data"], true);
 
     $User = new Components();
-    $User->InsertLike(obj.idPosts, $_SESSION['idUser'], obj.like, obj.claps);
+    $User->InsertLike($obj["idPosts"], $_SESSION['idUser'], $obj["likes"], $obj["claps"]);
     $GLOBALS['message'] = $User->message;
 }
 

@@ -39,7 +39,7 @@ if($_FILES["txtFile"]["size"]!=0){
         $uploadOk = 0;
     }
 
-    if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg" && $imageFileType != "gif" ) {
+    if($imageFileType != "png"){
         $uploadOk = 0;
     }
     if ($uploadOk == 0) {

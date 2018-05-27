@@ -44,7 +44,7 @@ function PreUpdatePosts(idPosts){
 function PreInsertLikeClaps(idPosts, like, claps) {
     var obj = new Object({
         "idPosts": idPosts,
-        "like" : like,
+        "likes" : like,
         "claps" : claps
     });
 
