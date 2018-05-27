@@ -37,9 +37,9 @@ function AbstractHtmlPost(postContainer = "postcontainer") {
         '</div>' +
         '</div>' +
         '<div class="div-block-9">' +
-        '<img src="' + PathSvgHome + 'sezione9-2.svg" class="image-9" v-on:click="ClikClaps(post.id)"/>' +
+        '<img src="' + PathSvgHome + 'sezione9-2.svg" class="image-9" v-on:click="ClickButton(post.id)"/>' +
         '<div class="applausinumero">{{ post.claps }}</div>' +
-        '<img src="' + PathSvgHome + 'sezione8.svg" class="image-10" v-on:click="ClikLike(post.id)"/>' +
+        '<img src="' + PathSvgHome + 'sezione8.svg" class="image-10" v-on:click="ClickButton(post.id)"/>' +
         '<div class="likenumero">{{ post.likes }}</div>' +
         '</div>' +
         '</div>' +
@@ -74,7 +74,7 @@ function AbstractHtmlPost(postContainer = "postcontainer") {
         '<div class="w-form">' +
         '<form id="wf-form-CommentoForm" name="wf-form-CommentoForm" data-name="CommentoForm" class="form">' +
         '<input type="text" class="text-field w-input" maxlength="256" name="name" data-name="Name" placeholder="Aggiungi commento ..." id="name" required=""/>' +
-        '<img src="' + PathSvgHome + 'sezione7.svg" class="image-8" v-on:click="ClikComment(post.id)"/>' +
+        '<img src="' + PathSvgHome + 'sezione7.svg" class="image-8" v-on:click="ClickButton(post.id)"/>' +
         '</form>' +
         '<div class="w-form-done">' +
         '<div>Thank you! Your submission has been received!</div>' +
@@ -92,6 +92,11 @@ function AbstractHtmlPost(postContainer = "postcontainer") {
         el: '.postcontainer',
         data: {
             posts: []
+        },
+        methods: {
+            ClickButton: function (idPost) {
+                console.log("click post button idPost: " + idPost);
+            }
         }
     });
     return posts;
