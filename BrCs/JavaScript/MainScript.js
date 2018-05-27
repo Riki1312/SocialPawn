@@ -7,6 +7,11 @@ let Html_profilo;
 
 function OnLoad_home() {
     HtmlPost_home = AbstractHtmlPost();
+
+    Html_profilo.ClickCalps = ClikClaps;
+    Html_profilo.ClikLike = ClikLike;
+    Html_profilo.ClikComment = ClikComment;
+
     PreGetPosts(NumPosts);
     /*
     for (let i = 0; i < serverPosts.length; i++)
