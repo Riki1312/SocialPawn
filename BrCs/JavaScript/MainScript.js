@@ -61,7 +61,7 @@ function TimerTick_home() {
 function OnLoad_profilo() {
     Html_profilo = AbstractHtmlProfilo();
 
-    HtmlPost_profilo = AbstractHtmlProfiloPost();
+    //HtmlPost_profilo = AbstractHtmlProfiloPost();
     //PreGetPosts(NumPosts);
     const timer = setInterval(TimerTick_profilo, Intervall);
 }
@@ -82,13 +82,18 @@ function TimerTick_profilo() {
 
     if (dataProfile != null) {
 
-        Html_profilo.profile.id = dataProfile.id;
-        Html_profilo.profile.uName = dataProfile.uName;
-        Html_profilo.profile.uImg = dataProfile.uImg;
-        Html_profilo.profile.uBio = dataProfile.uBio;
-        Html_profilo.profile.nPosts = dataProfile.nPosts;
-        Html_profilo.profile.nFollowers = dataProfile.nFollowers;
-        Html_profilo.profile.nFollowed = dataProfile.nFollowed;
+        if (Html_profilo.profile.length > 0)
+        {
+            /*Html_profilo.profile.id = dataProfile.id;
+            Html_profilo.profile.uName = dataProfile.uName;
+            Html_profilo.profile.uImg = dataProfile.uImg;
+            Html_profilo.profile.uBio = dataProfile.uBio;
+            Html_profilo.profile.nPosts = dataProfile.nPosts;
+            Html_profilo.profile.nFollowers = dataProfile.nFollowers;
+            Html_profilo.profile.nFollowed = dataProfile.nFollowed;*/
+        }
+        else
+            Html_profilo.profile.push(dataProfile);
 
         dataProfile = null;
     }
