@@ -4,7 +4,6 @@
     <list default="true" id="be5e824b-db38-4efb-93a3-3d4bcda1aa43" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/BrCs/JavaScript/AbstractHtml.js" afterPath="$PROJECT_DIR$/BrCs/JavaScript/AbstractHtml.js" />
-      <change beforePath="$PROJECT_DIR$/BrCs/JavaScript/MainScript.js" afterPath="$PROJECT_DIR$/BrCs/JavaScript/MainScript.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,21 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainScript.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainScript.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BrCs/JavaScript/MainScript.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
+            <state relative-caret-position="2208">
               <caret line="96" column="40" lean-forward="true" selection-start-line="96" selection-start-column="40" selection-end-line="96" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractHtml.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AbstractHtml.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BrCs/JavaScript/AbstractHtml.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="85" column="18" lean-forward="true" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
+            <state relative-caret-position="253">
+              <caret line="83" column="18" lean-forward="true" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -53,8 +52,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BrCs/JavaScript/AbstractHtml.js" />
         <option value="$PROJECT_DIR$/BrCs/JavaScript/MainScript.js" />
+        <option value="$PROJECT_DIR$/BrCs/JavaScript/AbstractHtml.js" />
       </list>
     </option>
   </component>
@@ -169,11 +168,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527450507497</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Id quando premi sui pulsanti post">
+      <created>1527450628802</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1527450628802</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1704000" />
+    <option name="totallyTimeSpent" value="1970000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -207,7 +213,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update profilo" />
     <MESSAGE value="Update profilo aggiornamento in tempo reale" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update profilo aggiornamento in tempo reale" />
+    <MESSAGE value="Id quando premi sui pulsanti post" />
+    <option name="LAST_COMMIT_MESSAGE" value="Id quando premi sui pulsanti post" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -240,21 +247,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BrCs/JavaScript/AbstractHtml.js">
+    <entry file="file://$PROJECT_DIR$/BrCs/JavaScript/MainScript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="85" column="18" lean-forward="true" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="2208">
+          <caret line="96" column="40" lean-forward="true" selection-start-line="96" selection-start-column="40" selection-end-line="96" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BrCs/JavaScript/MainScript.js">
+    <entry file="file://$PROJECT_DIR$/BrCs/JavaScript/AbstractHtml.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="96" column="40" lean-forward="true" selection-start-line="96" selection-start-column="40" selection-end-line="96" selection-end-column="40" />
-          <folding />
+        <state relative-caret-position="253">
+          <caret line="83" column="18" lean-forward="true" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
