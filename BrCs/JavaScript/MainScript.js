@@ -75,13 +75,13 @@ function TimerTick_profilo() {
 
         if (Html_profilo.profile.length > 0)
         {
-            /*Html_profilo.profile.id = dataProfile.id;
-            Html_profilo.profile.uName = dataProfile.uName;
-            Html_profilo.profile.uImg = dataProfile.uImg;
-            Html_profilo.profile.uBio = dataProfile.uBio;
-            Html_profilo.profile.nPosts = dataProfile.nPosts;
-            Html_profilo.profile.nFollowers = dataProfile.nFollowers;
-            Html_profilo.profile.nFollowed = dataProfile.nFollowed;*/
+            Html_profilo[0].profile.id = dataProfile.id;
+            Html_profilo[0].profile.uName = dataProfile.uName;
+            Html_profilo[0].profile.uImg = dataProfile.uImg;
+            Html_profilo[0].profile.uBio = dataProfile.uBio;
+            Html_profilo[0].profile.nPosts = dataProfile.nPosts;
+            Html_profilo[0].profile.nFollowers = dataProfile.nFollowers;
+            Html_profilo[0].profile.nFollowed = dataProfile.nFollowed;
         }
         else
             Html_profilo.profile.push(dataProfile);
