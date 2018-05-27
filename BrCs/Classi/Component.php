@@ -55,7 +55,6 @@ class Components
         $arrayPosts = [];
 
         $sql = "SELECT posts.idPs FROM posts\n"
-            . "WHERE posts.idUt IN (SELECT follower.idFollowing FROM follower WHERE follower.idUt = $idUser)\n"
             . "ORDER BY idPs DESC\n"
             . "LIMIT $numPosts";
         //Attualmente possiedo tutti gli id dei post da mostare nella home
