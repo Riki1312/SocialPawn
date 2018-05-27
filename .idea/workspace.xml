@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="be5e824b-db38-4efb-93a3-3d4bcda1aa43" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/BrCs/JavaScript/AbstractHtml.js" afterPath="$PROJECT_DIR$/BrCs/JavaScript/AbstractHtml.js" />
       <change beforePath="$PROJECT_DIR$/BrCs/JavaScript/MainScript.js" afterPath="$PROJECT_DIR$/BrCs/JavaScript/MainScript.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,8 +20,8 @@
       <file leaf-file-name="MainScript.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BrCs/JavaScript/MainScript.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+            <state relative-caret-position="284">
+              <caret line="84" column="9" lean-forward="true" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -53,8 +52,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BrCs/JavaScript/MainScript.js" />
         <option value="$PROJECT_DIR$/BrCs/JavaScript/AbstractHtml.js" />
+        <option value="$PROJECT_DIR$/BrCs/JavaScript/MainScript.js" />
       </list>
     </option>
   </component>
@@ -96,6 +95,12 @@
               <item name="SocialPawn" type="b2602c69:ProjectViewProjectNode" />
               <item name="SocialPawn" type="462c0819:PsiDirectoryNode" />
               <item name="BrCs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SocialPawn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SocialPawn" type="462c0819:PsiDirectoryNode" />
+              <item name="BrCs" type="462c0819:PsiDirectoryNode" />
+              <item name="Classi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SocialPawn" type="b2602c69:ProjectViewProjectNode" />
@@ -160,7 +165,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1327000" />
+    <option name="totallyTimeSpent" value="1589000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -212,8 +217,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BrCs/JavaScript/MainScript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+        <state relative-caret-position="353">
+          <caret line="99" column="32" lean-forward="true" selection-start-line="99" selection-start-column="32" selection-end-line="99" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BrCs/JavaScript/AbstractHtml.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1225">
+          <caret line="83" column="18" lean-forward="true" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BrCs/Classi/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="21" column="56" lean-forward="true" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BrCs/JavaScript/MainScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="84" column="9" lean-forward="true" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
           <folding />
         </state>
       </provider>
