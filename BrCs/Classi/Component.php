@@ -129,7 +129,7 @@ class Components
         for($count = 0; $count<count($idPost); $count++){
             //Query per ottenre i dati dell'utente
             $sql = "SELECT users.nickName, users.srcPhoto FROM users WHERE users.idUt = (SELECT idUt FROM posts WHERE idPs = ".$idPost[$count].")";
-            
+
             $result = $this->database->Query($sql);
             $data = $result->fetch_assoc();
             //Inizio riempimento dati
@@ -157,6 +157,12 @@ class Components
             $result = $this->database->Query($sql);
             $data = $result->fetch_assoc();
             //$obj->cText = ;
+
+            $sql = "SELECT srcFile, txt FROM posts WHERE idPs = ".$idPost[$count];
+            $result = $this->database->Query($sql);
+            $data = $result->fetch_assoc();
+            $obj->cImg = $data['srcFile'];
+            $obj->cText = $data['txt'];
 
             //Ottiene tutti i commenti
             $sql = "SELECT users.nickName, comments.txt FROM comments, users WHERE comments.idPs = ".$idPost[$count]." AND users.idUt = comments.idUt ORDER BY comments.date ASC";
@@ -199,7 +205,17 @@ class Components
             $record = $this->database->Query($sql);
             $record = $record->fetch_assoc();
             $claps = $claps+ $record["claps"];
-            $sql = "UPDATE `likes` SET `claps`= $claps,`likes`= $like WHERE idPs = $idPost && idUt = $idUser";
+            if($like==0)
+                $sql = "UPDATE `likes` SET `claps`= $claps WHERE idPs = $idPost && idUt = $idUser";
+            else{
+                $sql = "SELECT`likes` FROM `likes` WHERE idUt = $idUser && idPs = $idPost";
+                $record = $this->database->Query($sql);
+                $record = $record->fetch_assoc();
+                if($record["likes"] == 0)
+                    $sql = "UPDATE `likes` SET `claps`= $claps, likes = 1 WHERE idPs = $idPost && idUt = $idUser";
+                else
+                    $sql = "UPDATE `likes` SET `claps`= $claps, likes = 0 WHERE idPs = $idPost && idUt = $idUser";
+            }
             $this->database->Query($sql);
         }
         else{
