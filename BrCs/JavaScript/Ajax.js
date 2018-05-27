@@ -2,6 +2,7 @@
 
 
 var data = null;
+var dataProfile = null;
 
 function PreLogin() {
     var obj = new Object({
@@ -99,11 +100,7 @@ function Signin(obj) {
 
 }
 function DataProfile(obj) {
-    obj = obj.data;
-
-    document.getElementById("numFollower").textContent = obj.follower;
-    document.getElementById("numFollowing").textContent = obj.following;
-    document.getElementById("numPosts").textContent = obj.posts;
+    dataProfile = obj.dataProfile;
 }
 function GetPosts(obj) {
     data = JSON.parse(obj.data);

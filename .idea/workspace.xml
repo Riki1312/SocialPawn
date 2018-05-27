@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
+<<<<<<< HEAD
     <bookmark url="file://$PROJECT_DIR$/BrCs/Ajax.php" line="98" />
+=======
+    <bookmark url="file://$PROJECT_DIR$/BrCs/Ajax.php" line="85" />
+>>>>>>> master
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf4385f6-fe21-4861-8f6b-6bb5462fe5f6" name="Default" comment="">
@@ -22,9 +26,29 @@
       <file leaf-file-name="addpost.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BrCs/Page/addpost.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="-383">
               <caret line="31" column="30" lean-forward="false" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
               <folding />
+=======
+            <state relative-caret-position="220">
+              <caret line="37" column="68" selection-start-line="37" selection-start-column="63" selection-end-line="37" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Component.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BrCs/Classi/Component.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="54" column="25" lean-forward="true" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+              <folding>
+                <element signature="e#341#765#0#PHP" />
+                <element signature="e#770#1079#0#PHP" />
+                <element signature="e#4767#6800#0#PHP" />
+                <element signature="e#6805#7996#0#PHP" />
+              </folding>
+>>>>>>> master
             </state>
           </provider>
         </entry>
@@ -32,11 +56,19 @@
       <file leaf-file-name="AbstractHtml.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BrCs/JavaScript/AbstractHtml.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="376">
               <caret line="152" column="19" lean-forward="true" selection-start-line="152" selection-start-column="19" selection-end-line="152" selection-end-column="19" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="n#!!block;n#AbstractHtmlProfiloPost#0" expanded="false" />
+=======
+            <state relative-caret-position="407">
+              <caret line="149" column="12" lean-forward="true" selection-start-line="149" selection-start-column="12" selection-end-line="149" selection-end-column="12" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="n#!!block;n#AbstractHtmlProfiloPost#0" />
+>>>>>>> master
               </folding>
             </state>
           </provider>
@@ -45,9 +77,14 @@
       <file leaf-file-name="MainScript.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BrCs/JavaScript/MainScript.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="307">
               <caret line="96" column="0" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
               <folding />
+=======
+            <state relative-caret-position="240">
+              <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
+>>>>>>> master
             </state>
           </provider>
         </entry>
@@ -55,16 +92,22 @@
       <file leaf-file-name="profilo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BrCs/Page/profilo.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="897">
               <caret line="48" column="64" lean-forward="true" selection-start-line="48" selection-start-column="64" selection-end-line="48" selection-end-column="64" />
               <folding />
+=======
+            <state relative-caret-position="170">
+              <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+>>>>>>> master
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ajax.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Ajax.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BrCs/JavaScript/Ajax.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="460">
               <caret line="46" column="26" lean-forward="false" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="26" />
               <folding>
@@ -75,11 +118,24 @@
                 <element signature="n#!!block;n#Login#0" expanded="false" />
                 <element signature="n#!!block;n#Signin#0" expanded="false" />
                 <element signature="n#!!block;n#GetPosts#0" expanded="false" />
+=======
+            <state relative-caret-position="438">
+              <caret line="102" column="34" selection-start-line="102" selection-start-column="34" selection-end-line="102" selection-end-column="34" />
+              <folding>
+                <element signature="n#!!block;n#PreLogin#0" />
+                <element signature="n#!!block;n#PreSignin#0" />
+                <element signature="n#!!block;n#PreDataProfile#0" />
+                <element signature="n#!!block;n#PreGetPosts#0" />
+                <element signature="n#!!block;n#Login#0" />
+                <element signature="n#!!block;n#Signin#0" />
+                <element signature="n#!!block;n#GetPosts#0" />
+>>>>>>> master
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BrCs/Page/home.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -96,10 +152,24 @@
             <state relative-caret-position="2300">
               <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
               <folding />
+=======
+      <file leaf-file-name="updateFiles.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BrCs/updateFiles.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="487">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
+              <folding>
+                <element signature="e#538#817#0#PHP" />
+                <element signature="e#818#911#0#PHP" />
+                <element signature="e#912#1018#0#PHP" />
+                <element signature="e#1020#1153#0#PHP" />
+              </folding>
+>>>>>>> master
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Database.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BrCs/Classi/Database.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -110,6 +180,8 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> master
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -121,6 +193,7 @@
       <find>.divaddimg</find>
       <find>.divimgopzioni</find>
       <find>sess</find>
+      <find>echo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -132,15 +205,25 @@
         <option value="$PROJECT_DIR$/BrCs/Page/home.html" />
         <option value="$PROJECT_DIR$/OnlyGrafica/SocialPawn_Home-Profilo-Add_finito/socialpawn-home.css" />
         <option value="$PROJECT_DIR$/BrCs/Classi/Database.php" />
-        <option value="$PROJECT_DIR$/BrCs/updateFiles.php" />
         <option value="$PROJECT_DIR$/BrCs/Comuni/socialpawn-home.css" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/BrCs/Page/addpost.html" />
         <option value="$PROJECT_DIR$/BrCs/JavaScript/Ajax.js" />
+=======
+        <option value="$PROJECT_DIR$/BrCs/JavaScript/AbstractHtml.js" />
+>>>>>>> master
         <option value="$PROJECT_DIR$/BrCs/Ajax.php" />
+        <option value="$PROJECT_DIR$/BrCs/Page/addpost.html" />
+        <option value="$PROJECT_DIR$/BrCs/updateFiles.php" />
         <option value="$PROJECT_DIR$/BrCs/Classi/Component.php" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/BrCs/JavaScript/AbstractHtml.js" />
         <option value="$PROJECT_DIR$/BrCs/Page/profilo.html" />
         <option value="$PROJECT_DIR$/BrCs/JavaScript/MainScript.js" />
+=======
+        <option value="$PROJECT_DIR$/BrCs/JavaScript/MainScript.js" />
+        <option value="$PROJECT_DIR$/BrCs/JavaScript/Ajax.js" />
+>>>>>>> master
       </list>
     </option>
   </component>
@@ -186,9 +269,27 @@
             </path>
             <path>
               <item name="SocialPawn" type="b2602c69:ProjectViewProjectNode" />
+<<<<<<< HEAD
               <item name="SocialPawn" type="462c0819:PsiDirectoryNode" />
               <item name="BrCs" type="462c0819:PsiDirectoryNode" />
               <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="SocialPawn" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BrCs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Classi" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="SocialPawn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SocialPawn" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BrCs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="JavaScript" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="SocialPawn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SocialPawn" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BrCs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Page" type="2a2b976b:PhpTreeStructureProvider$1" />
+>>>>>>> master
             </path>
           </expand>
           <select />
@@ -239,7 +340,12 @@
       <workItem from="1527323053898" duration="896000" />
       <workItem from="1527326403329" duration="507000" />
       <workItem from="1527327573916" duration="4881000" />
+<<<<<<< HEAD
       <workItem from="1527447575002" duration="930000" />
+=======
+      <workItem from="1527352064111" duration="346000" />
+      <workItem from="1527404022988" duration="1753000" />
+>>>>>>> master
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1527240097429</created>
@@ -329,12 +435,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="26894000" />
+=======
+    <option name="totallyTimeSpent" value="28063000" />
+>>>>>>> master
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24925596" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -354,6 +465,27 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2489019" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3283582" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3283582" />
+>>>>>>> master
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -660,6 +792,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OnlyGrafica/SocialPawn_Home-Profilo-Add_finito/profilo.html" />
     <entry file="file://$PROJECT_DIR$/OnlyGrafica/SocialPawn_Home-Profilo-Add_finito/socialpawn-home.css" />
+    <entry file="file://$PROJECT_DIR$/BrCs/Comuni/socialpawn-home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="766" selection-start-line="766" selection-end-line="766" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BrCs/Page/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BrCs/Classi/Database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1150">
@@ -668,24 +814,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BrCs/updateFiles.php" />
-    <entry file="file://$PROJECT_DIR$/BrCs/Comuni/socialpawn-home.css">
+    <entry file="file://$PROJECT_DIR$/BrCs/Ajax.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="17">
           <caret line="766" column="0" lean-forward="false" selection-start-line="766" selection-start-column="0" selection-end-line="766" selection-end-column="0" />
+=======
+        <state relative-caret-position="557">
+          <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+          <folding>
+            <element signature="n#InsertUser#0;n#!!top" />
+            <element signature="n#GetPosts#0;n#!!top" />
+            <element signature="n#UpdatePosts#0;n#!!top" />
+            <element signature="n#Answer#0;n#!!top" />
+          </folding>
+>>>>>>> master
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BrCs/Ajax.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="2300">
           <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
           <folding />
+=======
+        <state relative-caret-position="220">
+          <caret line="37" column="68" selection-start-line="37" selection-start-column="63" selection-end-line="37" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BrCs/updateFiles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="e#538#817#0#PHP" />
+            <element signature="e#818#911#0#PHP" />
+            <element signature="e#912#1018#0#PHP" />
+            <element signature="e#1020#1153#0#PHP" />
+          </folding>
+>>>>>>> master
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BrCs/JavaScript/Ajax.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="460">
           <caret line="46" column="26" lean-forward="false" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="26" />
           <folding>
@@ -696,12 +871,22 @@
             <element signature="n#!!block;n#Login#0" expanded="false" />
             <element signature="n#!!block;n#Signin#0" expanded="false" />
             <element signature="n#!!block;n#GetPosts#0" expanded="false" />
+=======
+        <state relative-caret-position="273">
+          <caret line="54" column="25" lean-forward="true" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+          <folding>
+            <element signature="e#341#765#0#PHP" />
+            <element signature="e#770#1079#0#PHP" />
+            <element signature="e#4767#6800#0#PHP" />
+            <element signature="e#6805#7996#0#PHP" />
+>>>>>>> master
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BrCs/Classi/Component.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="487">
           <caret line="244" column="0" lean-forward="false" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
           <folding />
@@ -729,20 +914,56 @@
         <state relative-caret-position="897">
           <caret line="48" column="64" lean-forward="true" selection-start-line="48" selection-start-column="64" selection-end-line="48" selection-end-column="64" />
           <folding />
+=======
+        <state relative-caret-position="407">
+          <caret line="149" column="12" lean-forward="true" selection-start-line="149" selection-start-column="12" selection-end-line="149" selection-end-column="12" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!block;n#AbstractHtmlProfiloPost#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BrCs/Page/profilo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BrCs/JavaScript/MainScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
+>>>>>>> master
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BrCs/JavaScript/AbstractHtml.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="376">
           <caret line="152" column="19" lean-forward="true" selection-start-line="152" selection-start-column="19" selection-end-line="152" selection-end-column="19" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="n#!!block;n#AbstractHtmlProfiloPost#0" expanded="false" />
+=======
+        <state relative-caret-position="438">
+          <caret line="102" column="34" selection-start-line="102" selection-start-column="34" selection-end-line="102" selection-end-column="34" />
+          <folding>
+            <element signature="n#!!block;n#PreLogin#0" />
+            <element signature="n#!!block;n#PreSignin#0" />
+            <element signature="n#!!block;n#PreDataProfile#0" />
+            <element signature="n#!!block;n#PreGetPosts#0" />
+            <element signature="n#!!block;n#Login#0" />
+            <element signature="n#!!block;n#Signin#0" />
+            <element signature="n#!!block;n#GetPosts#0" />
+>>>>>>> master
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/BrCs/JavaScript/MainScript.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
@@ -751,5 +972,7 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> master
   </component>
 </project>

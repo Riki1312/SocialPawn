@@ -56,7 +56,7 @@ class Components
 
         $sql = "SELECT posts.idPs FROM posts\n"
             . "WHERE posts.idUt IN (SELECT follower.idFollowing FROM follower WHERE follower.idUt = $idUser)\n"
-            . "ORDER BY posts.date\n"
+            . "ORDER BY idPs DESC\n"
             . "LIMIT $numPosts";
         //Attualmente possiedo tutti gli id dei post da mostare nella home
         $record = $this->database->Query($sql);
@@ -230,16 +230,16 @@ class Components
     }
     public function InsertPost($idUser, $typePost, $src, $txt){
         $sql = "INSERT INTO `posts` (`idPs`, `idUt`, `idPt`, `srcFile`, `txt`, `date`) VALUES (NULL, $idUser, $typePost, '$src', '$txt', NOW());";
-
-        echo($sql."\n");
-
         $this->database->Query($sql);
 
-        $sql = "SELECT value FROM enum WHERE idEn = 1";
-        $num = $this->database->Query($sql)->fetch_assoc()["value"];
-        $num = $num +1;
-        $sql = "UPDATE `enum` SET `value` = $num WHERE `enum`.`idEn` = 1";
-        $this->database->Query($sql);
+        if($src!=null){
+            $sql = "SELECT value FROM enum WHERE idEn = 1";
+            $num = $this->database->Query($sql)->fetch_assoc()["value"];
+            $num = $num +1;
+            $sql = "UPDATE `enum` SET `value` = $num WHERE `enum`.`idEn` = 1";
+            $this->database->Query($sql);
+        }
+
     }
 
 }
